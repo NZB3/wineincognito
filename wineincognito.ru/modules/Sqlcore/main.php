@@ -14,7 +14,7 @@ class Main extends \AbstractNS\Main{
         $this->querylog = array();
         $this->connect();
     }
-    
+
     public function connect(){
         if($this->dbhndl){
             mysqli_close($this->dbhndl);
@@ -107,7 +107,7 @@ class Main extends \AbstractNS\Main{
         $this->freeResult($res);
         return (bool)$row;
     }
-    
+
     public function getLastError(){
         return mysqli_error($this->dbhndl);
     }
@@ -141,7 +141,7 @@ class Main extends \AbstractNS\Main{
             return;
         }
         foreach($this->querylog as $query){
-            @file_put_contents(LOG_DIRECTORY.'/sqllog_'.date('d-m-Y').'.log', 
+            @file_put_contents(LOG_DIRECTORY.'/sqllog_'.date('d-m-Y').'.log',
                 '['.date('H:i:s').'] pid='.$this->XM->getLogProcessId().' act='.$query[0].' tbl='.$query[1].' uid='.$query[2].' lastid='.$query[3].' "'.$query[4].'"'."\n", FILE_APPEND);
         }
         $this->querylog = array();

@@ -1,0 +1,49 @@
+version: '1'
+
+networks:
+    internal:
+
+services:
+    nginx:
+        image: nginx:stable-alpine
+        container_name: nginx
+        ports:
+          - "80:80"
+        volumes:
+          - ./wineincognito.ru:/var/www
+          - ./config/nginx:/etc/nginx/conf.d
+          - ./logs:/var/log/nginx/
+        depends_on:
+          - php
+          - mysql
+        networks:
+          - internal
+    php:
+        image: screxy/cringe:dev
+        container_name: php
+        volumes:
+          - ./wineincognito.ru:/var/www
+#          - ./config/php/php.ini:/usr/local/etc/php/php.ini
+        ports:
+          - "9001:9000"
+        networks:
+          - internal
+        env_file:
+          - .env
+        environment:
+          PHP_IDE_CONFIG: "serverName=Docker"
+    mysql:
+        image: mysql:8.0
+        container_name: mysql
+        restart: unless-stopped
+        ports:
+          - "3306:3306"
+        volumes:
+          - ./mysql:/var/lib/mysql
+        environment:
+          MYSQL_ROOT_PASSWORD: AvpysBylpUrwynEpcar6
+          MYSQL_DATABASE: $DB_DATABASE
+          MYSQL_USER: $DB_USERNAME
+          MYSQL_PASSWORD: $DB_PASSWORD
+        networks:
+         - internal

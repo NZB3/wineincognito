@@ -8,7 +8,7 @@ DEFINE('ABS_PATH', dirname(__FILE__));
 //	DEFINE('IS_HTTPS', false);
 //}
 
-DEFINE('IS_HTTPS', true);
+DEFINE('IS_HTTPS', false);
 
 if(IS_HTTPS){
     DEFINE('BASE_URL', 'https://'.$_SERVER['HTTP_HOST']);

@@ -1,0 +1,975 @@
+2024/10/10 19:25:04 [notice] 1#1: using the "epoll" event method
+2024/10/10 19:25:04 [notice] 1#1: nginx/1.26.2
+2024/10/10 19:25:04 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 19:25:04 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 19:25:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 19:25:04 [notice] 1#1: start worker processes
+2024/10/10 19:25:04 [notice] 1#1: start worker process 20
+2024/10/10 19:25:04 [notice] 1#1: start worker process 21
+2024/10/10 19:25:04 [notice] 1#1: start worker process 22
+2024/10/10 19:25:04 [notice] 1#1: start worker process 23
+2024/10/10 19:25:04 [notice] 1#1: start worker process 24
+2024/10/10 19:25:04 [notice] 1#1: start worker process 25
+2024/10/10 19:25:04 [notice] 1#1: start worker process 26
+2024/10/10 19:25:04 [notice] 1#1: start worker process 27
+2024/10/10 19:25:20 [error] 20#20: *1 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 19:26:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 19:26:43 [notice] 20#20: gracefully shutting down
+2024/10/10 19:26:43 [notice] 21#21: gracefully shutting down
+2024/10/10 19:26:43 [notice] 24#24: gracefully shutting down
+2024/10/10 19:26:43 [notice] 22#22: gracefully shutting down
+2024/10/10 19:26:43 [notice] 25#25: gracefully shutting down
+2024/10/10 19:26:43 [notice] 23#23: gracefully shutting down
+2024/10/10 19:26:43 [notice] 26#26: gracefully shutting down
+2024/10/10 19:26:43 [notice] 27#27: gracefully shutting down
+2024/10/10 19:26:43 [notice] 21#21: exiting
+2024/10/10 19:26:43 [notice] 24#24: exiting
+2024/10/10 19:26:43 [notice] 20#20: exiting
+2024/10/10 19:26:43 [notice] 22#22: exiting
+2024/10/10 19:26:43 [notice] 25#25: exiting
+2024/10/10 19:26:43 [notice] 22#22: exit
+2024/10/10 19:26:43 [notice] 23#23: exiting
+2024/10/10 19:26:43 [notice] 26#26: exiting
+2024/10/10 19:26:43 [notice] 27#27: exiting
+2024/10/10 19:26:43 [notice] 24#24: exit
+2024/10/10 19:26:43 [notice] 21#21: exit
+2024/10/10 19:26:43 [notice] 20#20: exit
+2024/10/10 19:26:43 [notice] 25#25: exit
+2024/10/10 19:26:43 [notice] 23#23: exit
+2024/10/10 19:26:43 [notice] 26#26: exit
+2024/10/10 19:26:43 [notice] 27#27: exit
+2024/10/10 19:26:43 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/10/10 19:26:43 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 19:26:43 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 19:26:43 [notice] 1#1: worker process 23 exited with code 0
+2024/10/10 19:26:43 [notice] 1#1: worker process 24 exited with code 0
+2024/10/10 19:26:43 [notice] 1#1: worker process 25 exited with code 0
+2024/10/10 19:26:43 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/10 19:26:43 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/10/10 19:26:43 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/10/10 19:26:43 [notice] 1#1: worker process 20 exited with code 0
+2024/10/10 19:26:43 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/10 19:26:43 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/10/10 19:26:43 [notice] 1#1: worker process 26 exited with code 0
+2024/10/10 19:26:43 [notice] 1#1: worker process 27 exited with code 0
+2024/10/10 19:26:43 [notice] 1#1: exit
+2024/10/10 19:27:27 [notice] 1#1: using the "epoll" event method
+2024/10/10 19:27:27 [notice] 1#1: nginx/1.26.2
+2024/10/10 19:27:27 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 19:27:27 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 19:27:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 19:27:27 [notice] 1#1: start worker processes
+2024/10/10 19:27:27 [notice] 1#1: start worker process 19
+2024/10/10 19:27:27 [notice] 1#1: start worker process 20
+2024/10/10 19:27:27 [notice] 1#1: start worker process 21
+2024/10/10 19:27:27 [notice] 1#1: start worker process 22
+2024/10/10 19:27:27 [notice] 1#1: start worker process 23
+2024/10/10 19:27:27 [notice] 1#1: start worker process 24
+2024/10/10 19:27:27 [notice] 1#1: start worker process 25
+2024/10/10 19:27:27 [notice] 1#1: start worker process 26
+2024/10/10 19:29:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 19:29:29 [notice] 19#19: gracefully shutting down
+2024/10/10 19:29:29 [notice] 23#23: gracefully shutting down
+2024/10/10 19:29:29 [notice] 20#20: gracefully shutting down
+2024/10/10 19:29:29 [notice] 21#21: gracefully shutting down
+2024/10/10 19:29:29 [notice] 24#24: gracefully shutting down
+2024/10/10 19:29:29 [notice] 25#25: gracefully shutting down
+2024/10/10 19:29:29 [notice] 26#26: gracefully shutting down
+2024/10/10 19:29:29 [notice] 22#22: gracefully shutting down
+2024/10/10 19:29:29 [notice] 19#19: exiting
+2024/10/10 19:29:29 [notice] 23#23: exiting
+2024/10/10 19:29:29 [notice] 20#20: exiting
+2024/10/10 19:29:29 [notice] 21#21: exiting
+2024/10/10 19:29:29 [notice] 24#24: exiting
+2024/10/10 19:29:29 [notice] 25#25: exiting
+2024/10/10 19:29:29 [notice] 26#26: exiting
+2024/10/10 19:29:29 [notice] 22#22: exiting
+2024/10/10 19:29:29 [notice] 19#19: exit
+2024/10/10 19:29:29 [notice] 23#23: exit
+2024/10/10 19:29:29 [notice] 20#20: exit
+2024/10/10 19:29:29 [notice] 21#21: exit
+2024/10/10 19:29:29 [notice] 24#24: exit
+2024/10/10 19:29:29 [notice] 25#25: exit
+2024/10/10 19:29:29 [notice] 26#26: exit
+2024/10/10 19:29:29 [notice] 22#22: exit
+2024/10/10 19:29:29 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/10/10 19:29:29 [notice] 1#1: worker process 20 exited with code 0
+2024/10/10 19:29:29 [notice] 1#1: worker process 25 exited with code 0
+2024/10/10 19:29:29 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/10 19:29:29 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/10/10 19:29:29 [notice] 1#1: worker process 19 exited with code 0
+2024/10/10 19:29:29 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 19:29:29 [notice] 1#1: worker process 23 exited with code 0
+2024/10/10 19:29:29 [notice] 1#1: worker process 24 exited with code 0
+2024/10/10 19:29:29 [notice] 1#1: worker process 26 exited with code 0
+2024/10/10 19:29:29 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/10 19:29:29 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/10/10 19:29:29 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/10/10 19:29:29 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 19:29:29 [notice] 1#1: exit
+2024/10/10 19:29:33 [notice] 1#1: using the "epoll" event method
+2024/10/10 19:29:33 [notice] 1#1: nginx/1.26.2
+2024/10/10 19:29:33 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 19:29:33 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 19:29:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 19:29:33 [notice] 1#1: start worker processes
+2024/10/10 19:29:33 [notice] 1#1: start worker process 20
+2024/10/10 19:29:33 [notice] 1#1: start worker process 21
+2024/10/10 19:29:33 [notice] 1#1: start worker process 22
+2024/10/10 19:29:33 [notice] 1#1: start worker process 23
+2024/10/10 19:29:33 [notice] 1#1: start worker process 24
+2024/10/10 19:29:33 [notice] 1#1: start worker process 25
+2024/10/10 19:29:33 [notice] 1#1: start worker process 26
+2024/10/10 19:29:33 [notice] 1#1: start worker process 27
+2024/10/10 19:30:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 19:30:05 [notice] 20#20: gracefully shutting down
+2024/10/10 19:30:05 [notice] 26#26: gracefully shutting down
+2024/10/10 19:30:05 [notice] 24#24: gracefully shutting down
+2024/10/10 19:30:05 [notice] 21#21: gracefully shutting down
+2024/10/10 19:30:05 [notice] 26#26: exiting
+2024/10/10 19:30:05 [notice] 23#23: gracefully shutting down
+2024/10/10 19:30:05 [notice] 25#25: gracefully shutting down
+2024/10/10 19:30:05 [notice] 22#22: gracefully shutting down
+2024/10/10 19:30:05 [notice] 20#20: exiting
+2024/10/10 19:30:05 [notice] 27#27: gracefully shutting down
+2024/10/10 19:30:05 [notice] 24#24: exiting
+2024/10/10 19:30:05 [notice] 21#21: exiting
+2024/10/10 19:30:05 [notice] 23#23: exiting
+2024/10/10 19:30:05 [notice] 26#26: exit
+2024/10/10 19:30:05 [notice] 25#25: exiting
+2024/10/10 19:30:05 [notice] 20#20: exit
+2024/10/10 19:30:05 [notice] 25#25: exit
+2024/10/10 19:30:05 [notice] 22#22: exiting
+2024/10/10 19:30:05 [notice] 27#27: exiting
+2024/10/10 19:30:05 [notice] 24#24: exit
+2024/10/10 19:30:05 [notice] 21#21: exit
+2024/10/10 19:30:05 [notice] 23#23: exit
+2024/10/10 19:30:05 [notice] 22#22: exit
+2024/10/10 19:30:05 [notice] 27#27: exit
+2024/10/10 19:30:05 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/10/10 19:30:05 [notice] 1#1: worker process 20 exited with code 0
+2024/10/10 19:30:05 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 19:30:05 [notice] 1#1: worker process 23 exited with code 0
+2024/10/10 19:30:05 [notice] 1#1: worker process 24 exited with code 0
+2024/10/10 19:30:05 [notice] 1#1: worker process 25 exited with code 0
+2024/10/10 19:30:05 [notice] 1#1: worker process 26 exited with code 0
+2024/10/10 19:30:05 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/10 19:30:05 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/10/10 19:30:05 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/10/10 19:30:05 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 19:30:05 [notice] 1#1: worker process 27 exited with code 0
+2024/10/10 19:30:05 [notice] 1#1: exit
+2024/10/10 19:30:11 [notice] 1#1: using the "epoll" event method
+2024/10/10 19:30:11 [notice] 1#1: nginx/1.26.2
+2024/10/10 19:30:11 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 19:30:11 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 19:30:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 19:30:11 [notice] 1#1: start worker processes
+2024/10/10 19:30:11 [notice] 1#1: start worker process 20
+2024/10/10 19:30:11 [notice] 1#1: start worker process 21
+2024/10/10 19:30:11 [notice] 1#1: start worker process 22
+2024/10/10 19:30:11 [notice] 1#1: start worker process 23
+2024/10/10 19:30:11 [notice] 1#1: start worker process 24
+2024/10/10 19:30:11 [notice] 1#1: start worker process 25
+2024/10/10 19:30:11 [notice] 1#1: start worker process 26
+2024/10/10 19:30:11 [notice] 1#1: start worker process 27
+2024/10/10 19:31:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 19:31:34 [notice] 20#20: gracefully shutting down
+2024/10/10 19:31:34 [notice] 20#20: exiting
+2024/10/10 19:31:34 [notice] 23#23: gracefully shutting down
+2024/10/10 19:31:34 [notice] 22#22: gracefully shutting down
+2024/10/10 19:31:34 [notice] 27#27: gracefully shutting down
+2024/10/10 19:31:34 [notice] 25#25: gracefully shutting down
+2024/10/10 19:31:34 [notice] 26#26: gracefully shutting down
+2024/10/10 19:31:34 [notice] 24#24: gracefully shutting down
+2024/10/10 19:31:34 [notice] 21#21: gracefully shutting down
+2024/10/10 19:31:34 [notice] 20#20: exit
+2024/10/10 19:31:34 [notice] 23#23: exiting
+2024/10/10 19:31:34 [notice] 22#22: exiting
+2024/10/10 19:31:34 [notice] 27#27: exiting
+2024/10/10 19:31:34 [notice] 25#25: exiting
+2024/10/10 19:31:34 [notice] 25#25: exit
+2024/10/10 19:31:34 [notice] 26#26: exiting
+2024/10/10 19:31:34 [notice] 24#24: exiting
+2024/10/10 19:31:34 [notice] 21#21: exiting
+2024/10/10 19:31:34 [notice] 24#24: exit
+2024/10/10 19:31:34 [notice] 23#23: exit
+2024/10/10 19:31:34 [notice] 22#22: exit
+2024/10/10 19:31:34 [notice] 27#27: exit
+2024/10/10 19:31:34 [notice] 26#26: exit
+2024/10/10 19:31:34 [notice] 21#21: exit
+2024/10/10 19:31:34 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/10/10 19:31:34 [notice] 1#1: worker process 20 exited with code 0
+2024/10/10 19:31:34 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 19:31:34 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 19:31:34 [notice] 1#1: worker process 23 exited with code 0
+2024/10/10 19:31:34 [notice] 1#1: worker process 24 exited with code 0
+2024/10/10 19:31:34 [notice] 1#1: worker process 25 exited with code 0
+2024/10/10 19:31:34 [notice] 1#1: worker process 26 exited with code 0
+2024/10/10 19:31:34 [notice] 1#1: worker process 27 exited with code 0
+2024/10/10 19:31:34 [notice] 1#1: exit
+2024/10/10 19:32:38 [notice] 1#1: using the "epoll" event method
+2024/10/10 19:32:38 [notice] 1#1: nginx/1.26.2
+2024/10/10 19:32:38 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 19:32:38 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 19:32:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 19:32:38 [notice] 1#1: start worker processes
+2024/10/10 19:32:38 [notice] 1#1: start worker process 20
+2024/10/10 19:32:38 [notice] 1#1: start worker process 21
+2024/10/10 19:32:38 [notice] 1#1: start worker process 22
+2024/10/10 19:32:38 [notice] 1#1: start worker process 23
+2024/10/10 19:32:38 [notice] 1#1: start worker process 24
+2024/10/10 19:32:38 [notice] 1#1: start worker process 25
+2024/10/10 19:32:38 [notice] 1#1: start worker process 26
+2024/10/10 19:32:38 [notice] 1#1: start worker process 27
+2024/10/10 19:33:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 19:33:45 [notice] 20#20: gracefully shutting down
+2024/10/10 19:33:45 [notice] 23#23: gracefully shutting down
+2024/10/10 19:33:45 [notice] 21#21: gracefully shutting down
+2024/10/10 19:33:45 [notice] 22#22: gracefully shutting down
+2024/10/10 19:33:45 [notice] 24#24: gracefully shutting down
+2024/10/10 19:33:45 [notice] 25#25: gracefully shutting down
+2024/10/10 19:33:45 [notice] 27#27: gracefully shutting down
+2024/10/10 19:33:45 [notice] 26#26: gracefully shutting down
+2024/10/10 19:33:45 [notice] 20#20: exiting
+2024/10/10 19:33:45 [notice] 23#23: exiting
+2024/10/10 19:33:45 [notice] 21#21: exiting
+2024/10/10 19:33:45 [notice] 22#22: exiting
+2024/10/10 19:33:45 [notice] 24#24: exiting
+2024/10/10 19:33:45 [notice] 25#25: exiting
+2024/10/10 19:33:45 [notice] 27#27: exiting
+2024/10/10 19:33:45 [notice] 25#25: exit
+2024/10/10 19:33:45 [notice] 26#26: exiting
+2024/10/10 19:33:45 [notice] 21#21: exit
+2024/10/10 19:33:45 [notice] 22#22: exit
+2024/10/10 19:33:45 [notice] 23#23: exit
+2024/10/10 19:33:45 [notice] 20#20: exit
+2024/10/10 19:33:45 [notice] 24#24: exit
+2024/10/10 19:33:45 [notice] 27#27: exit
+2024/10/10 19:33:45 [notice] 26#26: exit
+2024/10/10 19:33:45 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/10/10 19:33:45 [notice] 1#1: worker process 20 exited with code 0
+2024/10/10 19:33:45 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 19:33:45 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 19:33:45 [notice] 1#1: worker process 23 exited with code 0
+2024/10/10 19:33:45 [notice] 1#1: worker process 25 exited with code 0
+2024/10/10 19:33:45 [notice] 1#1: worker process 27 exited with code 0
+2024/10/10 19:33:45 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/10 19:33:45 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/10/10 19:33:45 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/10/10 19:33:45 [notice] 1#1: worker process 24 exited with code 0
+2024/10/10 19:33:45 [notice] 1#1: worker process 26 exited with code 0
+2024/10/10 19:33:45 [notice] 1#1: exit
+2024/10/10 19:34:24 [notice] 1#1: using the "epoll" event method
+2024/10/10 19:34:24 [notice] 1#1: nginx/1.26.2
+2024/10/10 19:34:24 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 19:34:24 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 19:34:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 19:34:24 [notice] 1#1: start worker processes
+2024/10/10 19:34:24 [notice] 1#1: start worker process 20
+2024/10/10 19:34:24 [notice] 1#1: start worker process 21
+2024/10/10 19:34:24 [notice] 1#1: start worker process 22
+2024/10/10 19:34:24 [notice] 1#1: start worker process 23
+2024/10/10 19:34:24 [notice] 1#1: start worker process 24
+2024/10/10 19:34:24 [notice] 1#1: start worker process 25
+2024/10/10 19:34:24 [notice] 1#1: start worker process 26
+2024/10/10 19:34:24 [notice] 1#1: start worker process 27
+2024/10/10 19:34:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 19:34:37 [notice] 20#20: gracefully shutting down
+2024/10/10 19:34:37 [notice] 21#21: gracefully shutting down
+2024/10/10 19:34:37 [notice] 22#22: gracefully shutting down
+2024/10/10 19:34:37 [notice] 23#23: gracefully shutting down
+2024/10/10 19:34:37 [notice] 24#24: gracefully shutting down
+2024/10/10 19:34:37 [notice] 26#26: gracefully shutting down
+2024/10/10 19:34:37 [notice] 25#25: gracefully shutting down
+2024/10/10 19:34:37 [notice] 27#27: gracefully shutting down
+2024/10/10 19:34:37 [notice] 20#20: exiting
+2024/10/10 19:34:37 [notice] 21#21: exiting
+2024/10/10 19:34:37 [notice] 22#22: exiting
+2024/10/10 19:34:37 [notice] 23#23: exiting
+2024/10/10 19:34:37 [notice] 24#24: exiting
+2024/10/10 19:34:37 [notice] 26#26: exiting
+2024/10/10 19:34:37 [notice] 25#25: exiting
+2024/10/10 19:34:37 [notice] 27#27: exiting
+2024/10/10 19:34:37 [notice] 20#20: exit
+2024/10/10 19:34:37 [notice] 21#21: exit
+2024/10/10 19:34:37 [notice] 22#22: exit
+2024/10/10 19:34:37 [notice] 23#23: exit
+2024/10/10 19:34:37 [notice] 24#24: exit
+2024/10/10 19:34:37 [notice] 26#26: exit
+2024/10/10 19:34:37 [notice] 25#25: exit
+2024/10/10 19:34:37 [notice] 27#27: exit
+2024/10/10 19:34:37 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/10/10 19:34:37 [notice] 1#1: worker process 20 exited with code 0
+2024/10/10 19:34:37 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 19:34:37 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 19:34:37 [notice] 1#1: worker process 23 exited with code 0
+2024/10/10 19:34:37 [notice] 1#1: worker process 24 exited with code 0
+2024/10/10 19:34:37 [notice] 1#1: worker process 25 exited with code 0
+2024/10/10 19:34:37 [notice] 1#1: worker process 26 exited with code 0
+2024/10/10 19:34:37 [notice] 1#1: worker process 27 exited with code 0
+2024/10/10 19:34:37 [notice] 1#1: exit
+2024/10/10 19:34:40 [notice] 1#1: using the "epoll" event method
+2024/10/10 19:34:40 [notice] 1#1: nginx/1.26.2
+2024/10/10 19:34:40 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 19:34:40 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 19:34:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 19:34:40 [notice] 1#1: start worker processes
+2024/10/10 19:34:40 [notice] 1#1: start worker process 20
+2024/10/10 19:34:40 [notice] 1#1: start worker process 21
+2024/10/10 19:34:40 [notice] 1#1: start worker process 22
+2024/10/10 19:34:40 [notice] 1#1: start worker process 23
+2024/10/10 19:34:40 [notice] 1#1: start worker process 24
+2024/10/10 19:34:40 [notice] 1#1: start worker process 25
+2024/10/10 19:34:40 [notice] 1#1: start worker process 26
+2024/10/10 19:34:40 [notice] 1#1: start worker process 27
+2024/10/10 19:35:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 19:35:59 [notice] 20#20: gracefully shutting down
+2024/10/10 19:35:59 [notice] 22#22: gracefully shutting down
+2024/10/10 19:35:59 [notice] 20#20: exiting
+2024/10/10 19:35:59 [notice] 21#21: gracefully shutting down
+2024/10/10 19:35:59 [notice] 23#23: gracefully shutting down
+2024/10/10 19:35:59 [notice] 24#24: gracefully shutting down
+2024/10/10 19:35:59 [notice] 26#26: gracefully shutting down
+2024/10/10 19:35:59 [notice] 25#25: gracefully shutting down
+2024/10/10 19:35:59 [notice] 27#27: gracefully shutting down
+2024/10/10 19:35:59 [notice] 26#26: exiting
+2024/10/10 19:35:59 [notice] 22#22: exiting
+2024/10/10 19:35:59 [notice] 20#20: exit
+2024/10/10 19:35:59 [notice] 21#21: exiting
+2024/10/10 19:35:59 [notice] 23#23: exiting
+2024/10/10 19:35:59 [notice] 24#24: exiting
+2024/10/10 19:35:59 [notice] 25#25: exiting
+2024/10/10 19:35:59 [notice] 27#27: exiting
+2024/10/10 19:35:59 [notice] 25#25: exit
+2024/10/10 19:35:59 [notice] 26#26: exit
+2024/10/10 19:35:59 [notice] 22#22: exit
+2024/10/10 19:35:59 [notice] 21#21: exit
+2024/10/10 19:35:59 [notice] 23#23: exit
+2024/10/10 19:35:59 [notice] 24#24: exit
+2024/10/10 19:35:59 [notice] 27#27: exit
+2024/10/10 19:35:59 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/10/10 19:35:59 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 19:35:59 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 19:35:59 [notice] 1#1: worker process 26 exited with code 0
+2024/10/10 19:35:59 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/10 19:35:59 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/10/10 19:35:59 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/10/10 19:35:59 [notice] 1#1: worker process 20 exited with code 0
+2024/10/10 19:35:59 [notice] 1#1: worker process 23 exited with code 0
+2024/10/10 19:35:59 [notice] 1#1: worker process 24 exited with code 0
+2024/10/10 19:35:59 [notice] 1#1: worker process 25 exited with code 0
+2024/10/10 19:35:59 [notice] 1#1: worker process 27 exited with code 0
+2024/10/10 19:35:59 [notice] 1#1: exit
+2024/10/10 19:36:04 [notice] 1#1: using the "epoll" event method
+2024/10/10 19:36:04 [notice] 1#1: nginx/1.26.2
+2024/10/10 19:36:04 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 19:36:04 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 19:36:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 19:36:04 [notice] 1#1: start worker processes
+2024/10/10 19:36:04 [notice] 1#1: start worker process 20
+2024/10/10 19:36:04 [notice] 1#1: start worker process 21
+2024/10/10 19:36:04 [notice] 1#1: start worker process 22
+2024/10/10 19:36:04 [notice] 1#1: start worker process 23
+2024/10/10 19:36:04 [notice] 1#1: start worker process 24
+2024/10/10 19:36:04 [notice] 1#1: start worker process 25
+2024/10/10 19:36:04 [notice] 1#1: start worker process 26
+2024/10/10 19:36:04 [notice] 1#1: start worker process 27
+2024/10/10 19:37:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 19:37:02 [notice] 20#20: gracefully shutting down
+2024/10/10 19:37:02 [notice] 26#26: gracefully shutting down
+2024/10/10 19:37:02 [notice] 21#21: gracefully shutting down
+2024/10/10 19:37:02 [notice] 22#22: gracefully shutting down
+2024/10/10 19:37:02 [notice] 23#23: gracefully shutting down
+2024/10/10 19:37:02 [notice] 21#21: exiting
+2024/10/10 19:37:02 [notice] 27#27: gracefully shutting down
+2024/10/10 19:37:02 [notice] 24#24: gracefully shutting down
+2024/10/10 19:37:02 [notice] 25#25: gracefully shutting down
+2024/10/10 19:37:02 [notice] 20#20: exiting
+2024/10/10 19:37:02 [notice] 26#26: exiting
+2024/10/10 19:37:02 [notice] 22#22: exiting
+2024/10/10 19:37:02 [notice] 23#23: exiting
+2024/10/10 19:37:02 [notice] 27#27: exiting
+2024/10/10 19:37:02 [notice] 21#21: exit
+2024/10/10 19:37:02 [notice] 24#24: exiting
+2024/10/10 19:37:02 [notice] 25#25: exiting
+2024/10/10 19:37:02 [notice] 20#20: exit
+2024/10/10 19:37:02 [notice] 26#26: exit
+2024/10/10 19:37:02 [notice] 22#22: exit
+2024/10/10 19:37:02 [notice] 23#23: exit
+2024/10/10 19:37:02 [notice] 27#27: exit
+2024/10/10 19:37:02 [notice] 24#24: exit
+2024/10/10 19:37:02 [notice] 25#25: exit
+2024/10/10 19:37:02 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/10/10 19:37:02 [notice] 1#1: worker process 20 exited with code 0
+2024/10/10 19:37:02 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 19:37:02 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 19:37:02 [notice] 1#1: worker process 26 exited with code 0
+2024/10/10 19:37:02 [notice] 1#1: worker process 27 exited with code 0
+2024/10/10 19:37:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/10 19:37:02 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/10/10 19:37:02 [notice] 1#1: worker process 23 exited with code 0
+2024/10/10 19:37:02 [notice] 1#1: worker process 24 exited with code 0
+2024/10/10 19:37:02 [notice] 1#1: worker process 25 exited with code 0
+2024/10/10 19:37:02 [notice] 1#1: exit
+2024/10/10 19:37:06 [notice] 1#1: using the "epoll" event method
+2024/10/10 19:37:06 [notice] 1#1: nginx/1.26.2
+2024/10/10 19:37:06 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 19:37:06 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 19:37:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 19:37:06 [notice] 1#1: start worker processes
+2024/10/10 19:37:06 [notice] 1#1: start worker process 19
+2024/10/10 19:37:06 [notice] 1#1: start worker process 20
+2024/10/10 19:37:06 [notice] 1#1: start worker process 21
+2024/10/10 19:37:06 [notice] 1#1: start worker process 22
+2024/10/10 19:37:06 [notice] 1#1: start worker process 23
+2024/10/10 19:37:06 [notice] 1#1: start worker process 24
+2024/10/10 19:37:06 [notice] 1#1: start worker process 25
+2024/10/10 19:37:06 [notice] 1#1: start worker process 26
+2024/10/10 19:40:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 19:40:51 [notice] 19#19: gracefully shutting down
+2024/10/10 19:40:51 [notice] 24#24: gracefully shutting down
+2024/10/10 19:40:51 [notice] 26#26: gracefully shutting down
+2024/10/10 19:40:51 [notice] 20#20: gracefully shutting down
+2024/10/10 19:40:51 [notice] 23#23: gracefully shutting down
+2024/10/10 19:40:51 [notice] 21#21: gracefully shutting down
+2024/10/10 19:40:51 [notice] 23#23: exiting
+2024/10/10 19:40:51 [notice] 22#22: gracefully shutting down
+2024/10/10 19:40:51 [notice] 25#25: gracefully shutting down
+2024/10/10 19:40:51 [notice] 19#19: exiting
+2024/10/10 19:40:51 [notice] 24#24: exiting
+2024/10/10 19:40:51 [notice] 26#26: exiting
+2024/10/10 19:40:51 [notice] 20#20: exiting
+2024/10/10 19:40:51 [notice] 21#21: exiting
+2024/10/10 19:40:51 [notice] 22#22: exiting
+2024/10/10 19:40:51 [notice] 23#23: exit
+2024/10/10 19:40:51 [notice] 25#25: exiting
+2024/10/10 19:40:51 [notice] 19#19: exit
+2024/10/10 19:40:51 [notice] 24#24: exit
+2024/10/10 19:40:51 [notice] 26#26: exit
+2024/10/10 19:40:51 [notice] 20#20: exit
+2024/10/10 19:40:51 [notice] 21#21: exit
+2024/10/10 19:40:51 [notice] 22#22: exit
+2024/10/10 19:40:51 [notice] 25#25: exit
+2024/10/10 19:40:51 [notice] 1#1: signal 17 (SIGCHLD) received from 19
+2024/10/10 19:40:51 [notice] 1#1: worker process 19 exited with code 0
+2024/10/10 19:40:51 [notice] 1#1: worker process 20 exited with code 0
+2024/10/10 19:40:51 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 19:40:51 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 19:40:51 [notice] 1#1: worker process 23 exited with code 0
+2024/10/10 19:40:51 [notice] 1#1: worker process 24 exited with code 0
+2024/10/10 19:40:51 [notice] 1#1: worker process 25 exited with code 0
+2024/10/10 19:40:51 [notice] 1#1: worker process 26 exited with code 0
+2024/10/10 19:40:51 [notice] 1#1: exit
+2024/10/10 19:41:25 [notice] 1#1: using the "epoll" event method
+2024/10/10 19:41:25 [notice] 1#1: nginx/1.26.2
+2024/10/10 19:41:25 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 19:41:25 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 19:41:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 19:41:25 [notice] 1#1: start worker processes
+2024/10/10 19:41:25 [notice] 1#1: start worker process 19
+2024/10/10 19:41:25 [notice] 1#1: start worker process 20
+2024/10/10 19:41:25 [notice] 1#1: start worker process 21
+2024/10/10 19:41:25 [notice] 1#1: start worker process 22
+2024/10/10 19:41:25 [notice] 1#1: start worker process 23
+2024/10/10 19:41:25 [notice] 1#1: start worker process 24
+2024/10/10 19:41:25 [notice] 1#1: start worker process 25
+2024/10/10 19:41:25 [notice] 1#1: start worker process 26
+2024/10/10 19:47:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 19:47:39 [notice] 20#20: gracefully shutting down
+2024/10/10 19:47:39 [notice] 25#25: gracefully shutting down
+2024/10/10 19:47:39 [notice] 20#20: exiting
+2024/10/10 19:47:39 [notice] 26#26: gracefully shutting down
+2024/10/10 19:47:39 [notice] 22#22: gracefully shutting down
+2024/10/10 19:47:39 [notice] 23#23: gracefully shutting down
+2024/10/10 19:47:39 [notice] 24#24: gracefully shutting down
+2024/10/10 19:47:39 [notice] 21#21: gracefully shutting down
+2024/10/10 19:47:39 [notice] 19#19: gracefully shutting down
+2024/10/10 19:47:39 [notice] 25#25: exiting
+2024/10/10 19:47:39 [notice] 22#22: exiting
+2024/10/10 19:47:39 [notice] 26#26: exiting
+2024/10/10 19:47:39 [notice] 22#22: exit
+2024/10/10 19:47:39 [notice] 20#20: exit
+2024/10/10 19:47:39 [notice] 23#23: exiting
+2024/10/10 19:47:39 [notice] 24#24: exiting
+2024/10/10 19:47:39 [notice] 23#23: exit
+2024/10/10 19:47:39 [notice] 21#21: exiting
+2024/10/10 19:47:39 [notice] 19#19: exiting
+2024/10/10 19:47:39 [notice] 25#25: exit
+2024/10/10 19:47:39 [notice] 26#26: exit
+2024/10/10 19:47:39 [notice] 24#24: exit
+2024/10/10 19:47:39 [notice] 21#21: exit
+2024/10/10 19:47:39 [notice] 19#19: exit
+2024/10/10 19:47:39 [notice] 1#1: signal 17 (SIGCHLD) received from 19
+2024/10/10 19:47:39 [notice] 1#1: worker process 19 exited with code 0
+2024/10/10 19:47:39 [notice] 1#1: worker process 23 exited with code 0
+2024/10/10 19:47:39 [notice] 1#1: worker process 25 exited with code 0
+2024/10/10 19:47:39 [notice] 1#1: worker process 26 exited with code 0
+2024/10/10 19:47:39 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/10 19:47:39 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/10/10 19:47:39 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2024/10/10 19:47:39 [notice] 1#1: worker process 20 exited with code 0
+2024/10/10 19:47:39 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/10 19:47:39 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/10/10 19:47:39 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 19:47:39 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 19:47:39 [notice] 1#1: worker process 24 exited with code 0
+2024/10/10 19:47:39 [notice] 1#1: exit
+2024/10/10 19:47:47 [notice] 1#1: using the "epoll" event method
+2024/10/10 19:47:47 [notice] 1#1: nginx/1.26.2
+2024/10/10 19:47:47 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 19:47:47 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 19:47:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 19:47:47 [notice] 1#1: start worker processes
+2024/10/10 19:47:47 [notice] 1#1: start worker process 20
+2024/10/10 19:47:47 [notice] 1#1: start worker process 21
+2024/10/10 19:47:47 [notice] 1#1: start worker process 22
+2024/10/10 19:47:47 [notice] 1#1: start worker process 23
+2024/10/10 19:47:47 [notice] 1#1: start worker process 24
+2024/10/10 19:47:47 [notice] 1#1: start worker process 25
+2024/10/10 19:47:47 [notice] 1#1: start worker process 26
+2024/10/10 19:47:47 [notice] 1#1: start worker process 27
+2024/10/10 19:49:40 [error] 22#22: *6 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/css/style.css?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 19:49:40 [error] 23#23: *8 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/css/agerestrict.css?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 19:49:40 [error] 25#25: *11 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/script.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 19:49:40 [error] 24#24: *10 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/agerestrict.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 19:49:40 [error] 23#23: *9 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/jquery.min.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 19:49:40 [error] 22#22: *6 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/img/logo.png HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 19:49:55 [error] 22#22: *6 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/css/style.css?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:49:55 [error] 23#23: *8 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/css/agerestrict.css?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:49:55 [error] 24#24: *10 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/agerestrict.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:49:55 [error] 25#25: *11 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/script.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:49:55 [error] 23#23: *9 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/jquery.min.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:49:55 [error] 22#22: *6 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/img/logo.png HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:49:57 [error] 23#23: *8 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/css/agerestrict.css?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:49:57 [error] 24#24: *10 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/agerestrict.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:49:57 [error] 23#23: *9 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/jquery.min.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:49:57 [error] 22#22: *6 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/css/style.css?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:49:57 [error] 25#25: *11 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/script.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:49:57 [error] 22#22: *6 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/img/logo.png HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:48 [error] 26#26: *14 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/css/style.css?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:48 [error] 20#20: *16 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/css/agerestrict.css?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:48 [error] 27#27: *17 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/jquery.min.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:48 [error] 20#20: *18 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/script.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:48 [error] 20#20: *19 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/agerestrict.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:48 [error] 26#26: *14 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/img/logo.png HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:49 [error] 26#26: *14 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/css/style.css?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:49 [error] 20#20: *16 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/css/agerestrict.css?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:49 [error] 27#27: *17 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/jquery.min.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:49 [error] 20#20: *19 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/agerestrict.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:49 [error] 20#20: *18 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/script.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:49 [error] 26#26: *14 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/img/logo.png HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:49 [error] 26#26: *14 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/css/style.css?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:49 [error] 20#20: *16 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/css/agerestrict.css?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:49 [error] 27#27: *17 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/jquery.min.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:49 [error] 20#20: *18 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/script.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:49 [error] 20#20: *19 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/js/agerestrict.js?v=2 HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:49 [error] 26#26: *14 access forbidden by rule, client: 192.168.65.1, server: , request: "GET /modules/Main/img/logo.png HTTP/1.1", host: "localhost", referrer: "http://localhost/ru/"
+2024/10/10 19:50:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 19:50:55 [notice] 20#20: gracefully shutting down
+2024/10/10 19:50:55 [notice] 26#26: gracefully shutting down
+2024/10/10 19:50:55 [notice] 27#27: gracefully shutting down
+2024/10/10 19:50:55 [notice] 21#21: gracefully shutting down
+2024/10/10 19:50:55 [notice] 22#22: gracefully shutting down
+2024/10/10 19:50:55 [notice] 25#25: gracefully shutting down
+2024/10/10 19:50:55 [notice] 24#24: gracefully shutting down
+2024/10/10 19:50:55 [notice] 23#23: gracefully shutting down
+2024/10/10 19:50:55 [notice] 20#20: exiting
+2024/10/10 19:50:55 [notice] 26#26: exiting
+2024/10/10 19:50:55 [notice] 27#27: exiting
+2024/10/10 19:50:55 [notice] 21#21: exiting
+2024/10/10 19:50:55 [notice] 22#22: exiting
+2024/10/10 19:50:55 [notice] 24#24: exiting
+2024/10/10 19:50:55 [notice] 25#25: exiting
+2024/10/10 19:50:55 [notice] 23#23: exiting
+2024/10/10 19:50:55 [notice] 26#26: exit
+2024/10/10 19:50:55 [notice] 27#27: exit
+2024/10/10 19:50:55 [notice] 23#23: exit
+2024/10/10 19:50:55 [notice] 20#20: exit
+2024/10/10 19:50:55 [notice] 21#21: exit
+2024/10/10 19:50:55 [notice] 22#22: exit
+2024/10/10 19:50:55 [notice] 24#24: exit
+2024/10/10 19:50:55 [notice] 25#25: exit
+2024/10/10 19:50:55 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/10/10 19:50:55 [notice] 1#1: worker process 20 exited with code 0
+2024/10/10 19:50:55 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 19:50:55 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 19:50:55 [notice] 1#1: worker process 23 exited with code 0
+2024/10/10 19:50:55 [notice] 1#1: worker process 24 exited with code 0
+2024/10/10 19:50:55 [notice] 1#1: worker process 25 exited with code 0
+2024/10/10 19:50:55 [notice] 1#1: worker process 26 exited with code 0
+2024/10/10 19:50:55 [notice] 1#1: worker process 27 exited with code 0
+2024/10/10 19:50:55 [notice] 1#1: exit
+2024/10/10 19:50:55 [notice] 1#1: using the "epoll" event method
+2024/10/10 19:50:55 [notice] 1#1: nginx/1.26.2
+2024/10/10 19:50:55 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 19:50:55 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 19:50:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 19:50:55 [notice] 1#1: start worker processes
+2024/10/10 19:50:55 [notice] 1#1: start worker process 20
+2024/10/10 19:50:55 [notice] 1#1: start worker process 21
+2024/10/10 19:50:55 [notice] 1#1: start worker process 22
+2024/10/10 19:50:55 [notice] 1#1: start worker process 23
+2024/10/10 19:50:55 [notice] 1#1: start worker process 24
+2024/10/10 19:50:55 [notice] 1#1: start worker process 25
+2024/10/10 19:50:55 [notice] 1#1: start worker process 26
+2024/10/10 19:50:55 [notice] 1#1: start worker process 27
+2024/10/10 19:50:57 [error] 20#20: *1 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:50:58 [error] 20#20: *1 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:50:58 [error] 20#20: *1 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:51:36 [error] 20#20: *1 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:51:36 [error] 20#20: *1 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:51:36 [error] 20#20: *1 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:51:36 [error] 20#20: *1 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:51:37 [error] 20#20: *1 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:51:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 19:51:40 [notice] 20#20: gracefully shutting down
+2024/10/10 19:51:40 [notice] 22#22: gracefully shutting down
+2024/10/10 19:51:40 [notice] 21#21: gracefully shutting down
+2024/10/10 19:51:40 [notice] 22#22: exiting
+2024/10/10 19:51:40 [notice] 23#23: gracefully shutting down
+2024/10/10 19:51:40 [notice] 24#24: gracefully shutting down
+2024/10/10 19:51:40 [notice] 26#26: gracefully shutting down
+2024/10/10 19:51:40 [notice] 25#25: gracefully shutting down
+2024/10/10 19:51:40 [notice] 27#27: gracefully shutting down
+2024/10/10 19:51:40 [notice] 20#20: exiting
+2024/10/10 19:51:40 [notice] 21#21: exiting
+2024/10/10 19:51:40 [notice] 23#23: exiting
+2024/10/10 19:51:40 [notice] 21#21: exit
+2024/10/10 19:51:40 [notice] 22#22: exit
+2024/10/10 19:51:40 [notice] 24#24: exiting
+2024/10/10 19:51:40 [notice] 26#26: exiting
+2024/10/10 19:51:40 [notice] 25#25: exiting
+2024/10/10 19:51:40 [notice] 20#20: exit
+2024/10/10 19:51:40 [notice] 27#27: exiting
+2024/10/10 19:51:40 [notice] 23#23: exit
+2024/10/10 19:51:40 [notice] 24#24: exit
+2024/10/10 19:51:40 [notice] 26#26: exit
+2024/10/10 19:51:40 [notice] 25#25: exit
+2024/10/10 19:51:40 [notice] 27#27: exit
+2024/10/10 19:51:40 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/10/10 19:51:40 [notice] 1#1: worker process 20 exited with code 0
+2024/10/10 19:51:40 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 19:51:40 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 19:51:40 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/10 19:51:40 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/10/10 19:51:40 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/10/10 19:51:40 [notice] 1#1: worker process 23 exited with code 0
+2024/10/10 19:51:40 [notice] 1#1: worker process 24 exited with code 0
+2024/10/10 19:51:40 [notice] 1#1: worker process 25 exited with code 0
+2024/10/10 19:51:40 [notice] 1#1: worker process 26 exited with code 0
+2024/10/10 19:51:40 [notice] 1#1: worker process 27 exited with code 0
+2024/10/10 19:51:40 [notice] 1#1: exit
+2024/10/10 19:51:41 [notice] 1#1: using the "epoll" event method
+2024/10/10 19:51:41 [notice] 1#1: nginx/1.26.2
+2024/10/10 19:51:41 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 19:51:41 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 19:51:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 19:51:41 [notice] 1#1: start worker processes
+2024/10/10 19:51:41 [notice] 1#1: start worker process 20
+2024/10/10 19:51:41 [notice] 1#1: start worker process 21
+2024/10/10 19:51:41 [notice] 1#1: start worker process 22
+2024/10/10 19:51:41 [notice] 1#1: start worker process 23
+2024/10/10 19:51:41 [notice] 1#1: start worker process 24
+2024/10/10 19:51:41 [notice] 1#1: start worker process 25
+2024/10/10 19:51:41 [notice] 1#1: start worker process 26
+2024/10/10 19:51:41 [notice] 1#1: start worker process 27
+2024/10/10 19:51:42 [error] 20#20: *1 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:51:42 [error] 20#20: *1 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:51:42 [error] 20#20: *1 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:51:43 [error] 20#20: *1 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:51:43 [error] 20#20: *1 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:52:07 [error] 20#20: *1 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:52:09 [error] 20#20: *1 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:52:10 [error] 20#20: *1 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:52:10 [error] 20#20: *1 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost", referrer: "http://localhost/en/"
+2024/10/10 19:52:24 [error] 21#21: *3 open() "/var/www/products/rated" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /products/rated HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 19:52:31 [error] 21#21: *3 open() "/var/www/login" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /login HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 19:53:57 [error] 26#26: *12 "/var/www/ru/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru/ HTTP/1.1", host: "localhost"
+2024/10/10 19:53:58 [error] 26#26: *12 open() "/var/www/ru" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /ru HTTP/1.1", host: "localhost"
+2024/10/10 19:54:02 [error] 26#26: *12 open() "/var/www/login" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /login HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 19:54:06 [error] 26#26: *12 open() "/var/www/products/rated" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /products/rated HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 19:54:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 19:54:22 [notice] 23#23: gracefully shutting down
+2024/10/10 19:54:22 [notice] 24#24: gracefully shutting down
+2024/10/10 19:54:22 [notice] 21#21: gracefully shutting down
+2024/10/10 19:54:22 [notice] 25#25: gracefully shutting down
+2024/10/10 19:54:22 [notice] 20#20: gracefully shutting down
+2024/10/10 19:54:22 [notice] 26#26: gracefully shutting down
+2024/10/10 19:54:22 [notice] 22#22: gracefully shutting down
+2024/10/10 19:54:22 [notice] 27#27: gracefully shutting down
+2024/10/10 19:54:22 [notice] 23#23: exiting
+2024/10/10 19:54:22 [notice] 24#24: exiting
+2024/10/10 19:54:22 [notice] 21#21: exiting
+2024/10/10 19:54:22 [notice] 25#25: exiting
+2024/10/10 19:54:22 [notice] 20#20: exiting
+2024/10/10 19:54:22 [notice] 22#22: exiting
+2024/10/10 19:54:22 [notice] 20#20: exit
+2024/10/10 19:54:22 [notice] 26#26: exiting
+2024/10/10 19:54:22 [notice] 27#27: exiting
+2024/10/10 19:54:22 [notice] 25#25: exit
+2024/10/10 19:54:22 [notice] 23#23: exit
+2024/10/10 19:54:22 [notice] 24#24: exit
+2024/10/10 19:54:22 [notice] 21#21: exit
+2024/10/10 19:54:22 [notice] 22#22: exit
+2024/10/10 19:54:22 [notice] 26#26: exit
+2024/10/10 19:54:22 [notice] 27#27: exit
+2024/10/10 19:54:22 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/10/10 19:54:22 [notice] 1#1: worker process 20 exited with code 0
+2024/10/10 19:54:22 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 19:54:22 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 19:54:22 [notice] 1#1: worker process 23 exited with code 0
+2024/10/10 19:54:22 [notice] 1#1: worker process 24 exited with code 0
+2024/10/10 19:54:22 [notice] 1#1: worker process 25 exited with code 0
+2024/10/10 19:54:22 [notice] 1#1: worker process 26 exited with code 0
+2024/10/10 19:54:22 [notice] 1#1: worker process 27 exited with code 0
+2024/10/10 19:54:22 [notice] 1#1: exit
+2024/10/10 19:54:22 [notice] 1#1: using the "epoll" event method
+2024/10/10 19:54:22 [notice] 1#1: nginx/1.26.2
+2024/10/10 19:54:22 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 19:54:22 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 19:54:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 19:54:22 [notice] 1#1: start worker processes
+2024/10/10 19:54:22 [notice] 1#1: start worker process 20
+2024/10/10 19:54:22 [notice] 1#1: start worker process 21
+2024/10/10 19:54:22 [notice] 1#1: start worker process 22
+2024/10/10 19:54:22 [notice] 1#1: start worker process 23
+2024/10/10 19:54:22 [notice] 1#1: start worker process 24
+2024/10/10 19:54:22 [notice] 1#1: start worker process 25
+2024/10/10 19:54:22 [notice] 1#1: start worker process 26
+2024/10/10 19:54:22 [notice] 1#1: start worker process 27
+2024/10/10 19:54:24 [crit] 20#20: *1 connect() to unix:/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.65.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.4-fpm.sock:", host: "localhost"
+2024/10/10 19:54:25 [crit] 20#20: *1 connect() to unix:/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.65.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.4-fpm.sock:", host: "localhost"
+2024/10/10 19:54:25 [crit] 20#20: *1 connect() to unix:/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.65.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.4-fpm.sock:", host: "localhost"
+2024/10/10 19:54:34 [crit] 20#20: *1 connect() to unix:/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.65.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.4-fpm.sock:", host: "localhost"
+2024/10/10 19:54:41 [crit] 20#20: *1 connect() to unix:/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.65.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.4-fpm.sock:", host: "localhost"
+2024/10/10 19:55:04 [crit] 20#20: *1 connect() to unix:/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.65.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.4-fpm.sock:", host: "localhost"
+2024/10/10 19:55:04 [crit] 20#20: *1 connect() to unix:/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.65.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.4-fpm.sock:", host: "localhost"
+2024/10/10 19:55:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 19:55:08 [notice] 20#20: gracefully shutting down
+2024/10/10 19:55:08 [notice] 21#21: gracefully shutting down
+2024/10/10 19:55:08 [notice] 24#24: gracefully shutting down
+2024/10/10 19:55:08 [notice] 26#26: gracefully shutting down
+2024/10/10 19:55:08 [notice] 22#22: gracefully shutting down
+2024/10/10 19:55:08 [notice] 23#23: gracefully shutting down
+2024/10/10 19:55:08 [notice] 25#25: gracefully shutting down
+2024/10/10 19:55:08 [notice] 27#27: gracefully shutting down
+2024/10/10 19:55:08 [notice] 20#20: exiting
+2024/10/10 19:55:08 [notice] 21#21: exiting
+2024/10/10 19:55:08 [notice] 24#24: exiting
+2024/10/10 19:55:08 [notice] 26#26: exiting
+2024/10/10 19:55:08 [notice] 22#22: exiting
+2024/10/10 19:55:08 [notice] 23#23: exiting
+2024/10/10 19:55:08 [notice] 25#25: exiting
+2024/10/10 19:55:08 [notice] 23#23: exit
+2024/10/10 19:55:08 [notice] 27#27: exiting
+2024/10/10 19:55:08 [notice] 20#20: exit
+2024/10/10 19:55:08 [notice] 21#21: exit
+2024/10/10 19:55:08 [notice] 24#24: exit
+2024/10/10 19:55:08 [notice] 22#22: exit
+2024/10/10 19:55:08 [notice] 26#26: exit
+2024/10/10 19:55:08 [notice] 25#25: exit
+2024/10/10 19:55:08 [notice] 27#27: exit
+2024/10/10 19:55:08 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/10/10 19:55:08 [notice] 1#1: worker process 24 exited with code 0
+2024/10/10 19:55:08 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/10 19:55:08 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/10/10 19:55:08 [notice] 1#1: worker process 20 exited with code 0
+2024/10/10 19:55:08 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 19:55:08 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 19:55:08 [notice] 1#1: worker process 25 exited with code 0
+2024/10/10 19:55:08 [notice] 1#1: worker process 26 exited with code 0
+2024/10/10 19:55:08 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/10 19:55:08 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/10/10 19:55:08 [notice] 1#1: worker process 23 exited with code 0
+2024/10/10 19:55:08 [notice] 1#1: worker process 27 exited with code 0
+2024/10/10 19:55:08 [notice] 1#1: exit
+2024/10/10 19:55:09 [notice] 1#1: using the "epoll" event method
+2024/10/10 19:55:09 [notice] 1#1: nginx/1.26.2
+2024/10/10 19:55:09 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 19:55:09 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 19:55:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 19:55:09 [notice] 1#1: start worker processes
+2024/10/10 19:55:09 [notice] 1#1: start worker process 19
+2024/10/10 19:55:09 [notice] 1#1: start worker process 20
+2024/10/10 19:55:09 [notice] 1#1: start worker process 21
+2024/10/10 19:55:09 [notice] 1#1: start worker process 22
+2024/10/10 19:55:09 [notice] 1#1: start worker process 23
+2024/10/10 19:55:09 [notice] 1#1: start worker process 24
+2024/10/10 19:55:09 [notice] 1#1: start worker process 25
+2024/10/10 19:55:09 [notice] 1#1: start worker process 26
+2024/10/10 19:55:16 [error] 19#19: *1 open() "/var/www/products/rated" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /products/rated HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 19:55:18 [error] 19#19: *1 open() "/var/www/contests" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /contests HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 19:55:20 [error] 19#19: *1 open() "/var/www/login" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /login HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 19:55:22 [error] 19#19: *1 "/var/www/en/index.php" is not found (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /en/ HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 19:55:27 [error] 19#19: *1 open() "/var/www/ajax/attributes/childvalues" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "POST /ajax/attributes/childvalues HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 19:55:36 [error] 22#22: *9 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 19:55:51 [error] 19#19: *25 open() "/var/www/ajax/attributes/childvalues" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "POST /ajax/attributes/childvalues HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 20:00:25 [error] 19#19: *26 open() "/var/www/ajax/keepalive" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "POST /ajax/keepalive HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 20:00:44 [error] 19#19: *27 open() "/var/www/ajax/keepalive" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "POST /ajax/keepalive HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 20:01:25 [error] 19#19: *28 open() "/var/www/ajax/keepalive" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "POST /ajax/keepalive HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 20:01:44 [error] 19#19: *29 open() "/var/www/ajax/keepalive" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "POST /ajax/keepalive HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 20:02:25 [error] 19#19: *30 open() "/var/www/ajax/keepalive" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "POST /ajax/keepalive HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 20:02:44 [error] 19#19: *31 open() "/var/www/ajax/keepalive" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "POST /ajax/keepalive HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 20:03:25 [error] 19#19: *32 open() "/var/www/ajax/keepalive" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "POST /ajax/keepalive HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 20:03:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 20:03:49 [notice] 19#19: gracefully shutting down
+2024/10/10 20:03:49 [notice] 25#25: gracefully shutting down
+2024/10/10 20:03:49 [notice] 20#20: gracefully shutting down
+2024/10/10 20:03:49 [notice] 21#21: gracefully shutting down
+2024/10/10 20:03:49 [notice] 22#22: gracefully shutting down
+2024/10/10 20:03:49 [notice] 21#21: exiting
+2024/10/10 20:03:49 [notice] 24#24: gracefully shutting down
+2024/10/10 20:03:49 [notice] 23#23: gracefully shutting down
+2024/10/10 20:03:49 [notice] 26#26: gracefully shutting down
+2024/10/10 20:03:49 [notice] 19#19: exiting
+2024/10/10 20:03:49 [notice] 25#25: exiting
+2024/10/10 20:03:49 [notice] 20#20: exiting
+2024/10/10 20:03:49 [notice] 22#22: exiting
+2024/10/10 20:03:49 [notice] 24#24: exiting
+2024/10/10 20:03:49 [notice] 21#21: exit
+2024/10/10 20:03:49 [notice] 23#23: exiting
+2024/10/10 20:03:49 [notice] 24#24: exit
+2024/10/10 20:03:49 [notice] 26#26: exiting
+2024/10/10 20:03:49 [notice] 19#19: exit
+2024/10/10 20:03:49 [notice] 25#25: exit
+2024/10/10 20:03:49 [notice] 20#20: exit
+2024/10/10 20:03:49 [notice] 22#22: exit
+2024/10/10 20:03:49 [notice] 23#23: exit
+2024/10/10 20:03:49 [notice] 26#26: exit
+2024/10/10 20:03:49 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/10/10 20:03:49 [notice] 1#1: worker process 19 exited with code 0
+2024/10/10 20:03:49 [notice] 1#1: worker process 20 exited with code 0
+2024/10/10 20:03:49 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 20:03:49 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 20:03:49 [notice] 1#1: worker process 23 exited with code 0
+2024/10/10 20:03:49 [notice] 1#1: worker process 24 exited with code 0
+2024/10/10 20:03:49 [notice] 1#1: worker process 25 exited with code 0
+2024/10/10 20:03:49 [notice] 1#1: worker process 26 exited with code 0
+2024/10/10 20:03:49 [notice] 1#1: exit
+2024/10/10 20:03:55 [notice] 1#1: using the "epoll" event method
+2024/10/10 20:03:55 [notice] 1#1: nginx/1.26.2
+2024/10/10 20:03:55 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 20:03:55 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 20:03:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 20:03:55 [notice] 1#1: start worker processes
+2024/10/10 20:03:55 [notice] 1#1: start worker process 20
+2024/10/10 20:03:55 [notice] 1#1: start worker process 21
+2024/10/10 20:03:55 [notice] 1#1: start worker process 22
+2024/10/10 20:03:55 [notice] 1#1: start worker process 23
+2024/10/10 20:03:55 [notice] 1#1: start worker process 24
+2024/10/10 20:03:55 [notice] 1#1: start worker process 25
+2024/10/10 20:03:55 [notice] 1#1: start worker process 26
+2024/10/10 20:03:55 [notice] 1#1: start worker process 27
+2024/10/10 20:04:00 [error] 26#26: *8 open() "/var/www/ajax/attributes/childvalues" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "POST /ajax/attributes/childvalues HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 20:04:25 [error] 20#20: *10 open() "/var/www/ajax/keepalive" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "POST /ajax/keepalive HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 20:05:25 [error] 20#20: *11 open() "/var/www/ajax/keepalive" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "POST /ajax/keepalive HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 20:06:08 [error] 21#21: *13 open() "/var/www/q" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /q HTTP/1.1", host: "localhost"
+2024/10/10 20:06:25 [error] 20#20: *14 open() "/var/www/ajax/keepalive" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "POST /ajax/keepalive HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 20:07:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 20:07:05 [notice] 20#20: gracefully shutting down
+2024/10/10 20:07:05 [notice] 21#21: gracefully shutting down
+2024/10/10 20:07:05 [notice] 22#22: gracefully shutting down
+2024/10/10 20:07:05 [notice] 23#23: gracefully shutting down
+2024/10/10 20:07:05 [notice] 25#25: gracefully shutting down
+2024/10/10 20:07:05 [notice] 26#26: gracefully shutting down
+2024/10/10 20:07:05 [notice] 25#25: exiting
+2024/10/10 20:07:05 [notice] 27#27: gracefully shutting down
+2024/10/10 20:07:05 [notice] 24#24: gracefully shutting down
+2024/10/10 20:07:05 [notice] 20#20: exiting
+2024/10/10 20:07:05 [notice] 21#21: exiting
+2024/10/10 20:07:05 [notice] 22#22: exiting
+2024/10/10 20:07:05 [notice] 23#23: exiting
+2024/10/10 20:07:05 [notice] 26#26: exiting
+2024/10/10 20:07:05 [notice] 27#27: exiting
+2024/10/10 20:07:05 [notice] 24#24: exiting
+2024/10/10 20:07:05 [notice] 25#25: exit
+2024/10/10 20:07:05 [notice] 20#20: exit
+2024/10/10 20:07:05 [notice] 21#21: exit
+2024/10/10 20:07:05 [notice] 22#22: exit
+2024/10/10 20:07:05 [notice] 23#23: exit
+2024/10/10 20:07:05 [notice] 26#26: exit
+2024/10/10 20:07:05 [notice] 27#27: exit
+2024/10/10 20:07:05 [notice] 24#24: exit
+2024/10/10 20:07:05 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/10/10 20:07:05 [notice] 1#1: worker process 20 exited with code 0
+2024/10/10 20:07:05 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 20:07:05 [notice] 1#1: worker process 23 exited with code 0
+2024/10/10 20:07:05 [notice] 1#1: worker process 24 exited with code 0
+2024/10/10 20:07:05 [notice] 1#1: worker process 25 exited with code 0
+2024/10/10 20:07:05 [notice] 1#1: worker process 26 exited with code 0
+2024/10/10 20:07:05 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 20:07:05 [notice] 1#1: worker process 27 exited with code 0
+2024/10/10 20:07:05 [notice] 1#1: exit
+2024/10/10 20:07:06 [notice] 1#1: using the "epoll" event method
+2024/10/10 20:07:06 [notice] 1#1: nginx/1.26.2
+2024/10/10 20:07:06 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 20:07:06 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 20:07:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 20:07:06 [notice] 1#1: start worker processes
+2024/10/10 20:07:06 [notice] 1#1: start worker process 20
+2024/10/10 20:07:06 [notice] 1#1: start worker process 21
+2024/10/10 20:07:06 [notice] 1#1: start worker process 22
+2024/10/10 20:07:06 [notice] 1#1: start worker process 23
+2024/10/10 20:07:06 [notice] 1#1: start worker process 24
+2024/10/10 20:07:06 [notice] 1#1: start worker process 25
+2024/10/10 20:07:06 [notice] 1#1: start worker process 26
+2024/10/10 20:07:06 [notice] 1#1: start worker process 27
+2024/10/10 20:07:09 [error] 20#20: *1 open() "/var/www/q" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /q HTTP/1.1", host: "localhost"
+2024/10/10 20:07:10 [error] 20#20: *1 open() "/var/www/q" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "GET /q HTTP/1.1", host: "localhost"
+2024/10/10 20:07:14 [error] 26#26: *8 open() "/var/www/ajax/attributes/childvalues" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "POST /ajax/attributes/childvalues HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 20:07:25 [error] 27#27: *9 open() "/var/www/ajax/keepalive" failed (2: No such file or directory), client: 192.168.65.1, server: _, request: "POST /ajax/keepalive HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/10/10 20:08:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/10/10 20:08:04 [notice] 21#21: gracefully shutting down
+2024/10/10 20:08:04 [notice] 23#23: gracefully shutting down
+2024/10/10 20:08:04 [notice] 20#20: gracefully shutting down
+2024/10/10 20:08:04 [notice] 24#24: gracefully shutting down
+2024/10/10 20:08:04 [notice] 22#22: gracefully shutting down
+2024/10/10 20:08:04 [notice] 25#25: gracefully shutting down
+2024/10/10 20:08:04 [notice] 27#27: gracefully shutting down
+2024/10/10 20:08:04 [notice] 26#26: gracefully shutting down
+2024/10/10 20:08:04 [notice] 21#21: exiting
+2024/10/10 20:08:04 [notice] 23#23: exiting
+2024/10/10 20:08:04 [notice] 27#27: exiting
+2024/10/10 20:08:04 [notice] 20#20: exiting
+2024/10/10 20:08:04 [notice] 24#24: exiting
+2024/10/10 20:08:04 [notice] 22#22: exiting
+2024/10/10 20:08:04 [notice] 25#25: exiting
+2024/10/10 20:08:04 [notice] 26#26: exiting
+2024/10/10 20:08:04 [notice] 21#21: exit
+2024/10/10 20:08:04 [notice] 23#23: exit
+2024/10/10 20:08:04 [notice] 27#27: exit
+2024/10/10 20:08:04 [notice] 20#20: exit
+2024/10/10 20:08:04 [notice] 24#24: exit
+2024/10/10 20:08:04 [notice] 22#22: exit
+2024/10/10 20:08:04 [notice] 25#25: exit
+2024/10/10 20:08:04 [notice] 26#26: exit
+2024/10/10 20:08:04 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/10/10 20:08:04 [notice] 1#1: worker process 20 exited with code 0
+2024/10/10 20:08:04 [notice] 1#1: worker process 21 exited with code 0
+2024/10/10 20:08:04 [notice] 1#1: worker process 22 exited with code 0
+2024/10/10 20:08:04 [notice] 1#1: worker process 23 exited with code 0
+2024/10/10 20:08:04 [notice] 1#1: worker process 24 exited with code 0
+2024/10/10 20:08:04 [notice] 1#1: worker process 27 exited with code 0
+2024/10/10 20:08:04 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/10 20:08:04 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/10/10 20:08:04 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/10/10 20:08:04 [notice] 1#1: worker process 26 exited with code 0
+2024/10/10 20:08:04 [notice] 1#1: signal 29 (SIGIO) received
+2024/10/10 20:08:04 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/10/10 20:08:04 [notice] 1#1: worker process 25 exited with code 0
+2024/10/10 20:08:04 [notice] 1#1: exit
+2024/10/10 20:16:28 [notice] 1#1: using the "epoll" event method
+2024/10/10 20:16:28 [notice] 1#1: nginx/1.26.2
+2024/10/10 20:16:28 [notice] 1#1: built by gcc 13.2.1 20240309 (Alpine 13.2.1_git20240309) 
+2024/10/10 20:16:28 [notice] 1#1: OS: Linux 6.6.26-linuxkit
+2024/10/10 20:16:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/10/10 20:16:28 [notice] 1#1: start worker processes
+2024/10/10 20:16:28 [notice] 1#1: start worker process 19
+2024/10/10 20:16:28 [notice] 1#1: start worker process 20
+2024/10/10 20:16:28 [notice] 1#1: start worker process 21
+2024/10/10 20:16:28 [notice] 1#1: start worker process 22
+2024/10/10 20:16:28 [notice] 1#1: start worker process 23
+2024/10/10 20:16:28 [notice] 1#1: start worker process 24
+2024/10/10 20:16:28 [notice] 1#1: start worker process 25
+2024/10/10 20:16:28 [notice] 1#1: start worker process 26
