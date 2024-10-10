@@ -1,1 +1,4 @@
 *.rar
+.env
+mysql
+.idea
