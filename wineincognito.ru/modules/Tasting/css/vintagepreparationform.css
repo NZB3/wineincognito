@@ -1,0 +1,36 @@
+body > .modal-wrapper > .modal form > .subcontent.tasting-vintage-preparation{
+    text-align: left;
+}
+body > .modal-wrapper > .modal form > .subcontent.tasting-vintage-preparation ul li input{
+    display:none;
+}
+body > .modal-wrapper > .modal form > .subcontent.tasting-vintage-preparation ul li label{
+    white-space: nowrap;
+    padding: 4px 8px;
+    display: block;
+    text-decoration: none;
+    border: 1px solid #2ea2cc;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+}
+body > .modal-wrapper > .modal form > .subcontent.tasting-vintage-preparation ul li input:checked + label{
+    background-color: #2ea2cc;
+    color: #fff;
+    /*border: none;*/
+}
+body > .modal-wrapper > .modal form > .subcontent.tasting-vintage-preparation > label, body > .modal-wrapper > .modal form > .subcontent.tasting-vintage-preparation > input, body > .modal-wrapper > .modal form > .subcontent.tasting-vintage-preparation ul{
+    display: block;
+    margin: 3px 0;
+}
+body > .modal-wrapper > .modal form > .subcontent.tasting-vintage-preparation > label:after{
+    content:":";
+}
+body > .modal-wrapper > .modal form > .subcontent.tasting-vintage-preparation > input[type=submit]{
+    float:right;
+}

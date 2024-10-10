@@ -1,0 +1,1 @@
+<?php $t=array('With all'=>'With all','Click to select'=>'Click to select','Clear'=>'Clear','Show not important'=>'Show uncommon','Hide not important'=>'Hide uncommon','Show non-regional'=>'Show non-regional','Hide non-regional'=>'Hide non-regional');

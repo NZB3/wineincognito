@@ -1,0 +1,1 @@
+<?php $t=array('User joining has been successfully approved'=>'Запрос пользователя на вступление было успешно одобрен','User joining has been successfully denied'=>'Запрос пользователя на вступление было успешно отклонен');

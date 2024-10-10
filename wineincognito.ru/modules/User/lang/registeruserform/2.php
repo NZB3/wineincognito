@@ -1,0 +1,1 @@
+<?php $t=array('User have been registered'=>'Пользователь зарегистрирован','Username'=>'E-mail','Password'=>'Пароль','Repeat password'=>'Повторите пароль','Register'=>'Зарегистрироваться','Processing consent'=>'Я согласен на @1обработку моих персональных данных@2');

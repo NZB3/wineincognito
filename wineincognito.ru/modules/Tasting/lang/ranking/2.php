@@ -1,0 +1,1 @@
+<?php $t=array('Provided product ranking has been successfully saved'=>'Заполненные рейтинги были успешно сохранены');

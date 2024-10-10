@@ -1,0 +1,102 @@
+.filter-block.tasting-filter .datalist a.add{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+    float:right;
+}
+.filter-block.tasting-filter .datalist a.add{
+    background-image: url(/modules/Tasting/img/add.png);
+}
+.filter-block.tasting-filter .datalist th.name,.filter-block.tasting-filter .datalist td.name{
+    width:100%;
+}
+.filter-block.tasting-filter .datalist td.name{
+    white-space: nowrap;
+}
+.filter-block.tasting-filter .datalist td.name .location{
+    display: block;
+    white-space: normal;
+    font-style: italic;
+    font-size: 90%;
+    text-indent: 20px;
+}
+.filter-block.tasting-filter .datalist th.status,.filter-block.tasting-filter .datalist td.status,
+.filter-block.tasting-filter .datalist th.price,.filter-block.tasting-filter .datalist td.price{
+    white-space: nowrap;
+    width:0px;
+}
+.filter-block.tasting-filter .datalist th.pending-review-count,.filter-block.tasting-filter .datalist td.pending-review-count{
+    white-space: nowrap;
+    width:0px;
+    text-align: center;
+}
+
+.filter-block.tasting-filter .datalist tbody td{
+    vertical-align: middle;
+}
+.filter-block.tasting-filter .datalist tbody td a{
+    display:block;
+}
+.filter-block.tasting-filter .datalist th.attendance-response,.filter-block.tasting-filter .datalist th.info, .filter-block.tasting-filter .datalist tbody th.custom-add,
+.filter-block.tasting-filter .datalist tbody td.attendance-response,.filter-block.tasting-filter .datalist tbody td.info,.filter-block.tasting-filter .datalist tbody td.custom-add{
+    padding:0;
+    width:0px;
+}
+.filter-block.tasting-filter .datalist tbody td.attendance-response span{
+    display:hidden;
+}
+.filter-block.tasting-filter .datalist tbody td.attendance-response.owned span,.filter-block.tasting-filter .datalist tbody td.attendance-response.pending span,.filter-block.tasting-filter .datalist tbody td.attendance-response.accepted span,.filter-block.tasting-filter .datalist tbody td.attendance-response.declined span,.filter-block.tasting-filter .datalist tbody td.attendance-response.interested span,.filter-block.tasting-filter .datalist tbody td.attendance-response.uncertain span,.filter-block.tasting-filter .datalist tbody td.info a,.filter-block.tasting-filter .datalist tbody td.custom-add span{
+    width: 32px;
+    height: 32px;
+    margin: 2px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+}
+.filter-block.tasting-filter .datalist th.global-expert-rating span.header{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display:inline-block;
+    vertical-align: middle;
+    background-image: url(/modules/Tasting/img/evaluation-auto-result.png);
+}
+.filter-block.tasting-filter .datalist td.global-expert-rating{
+    white-space: nowrap;
+}
+.filter-block.tasting-filter .datalist td.global-expert-rating.global-expert-rating-lenient,
+.filter-block.tasting-filter .datalist td.global-expert-rating.global-expert-rating-lenient.global-expert-rating-zero{
+    color: #888;
+}
+.filter-block.tasting-filter .datalist td.global-expert-rating.global-expert-rating-zero{
+    color: #844;
+}
+.filter-block.tasting-filter .datalist tbody td.attendance-response.owned span{
+    background-image: url(/modules/Tasting/img/attendance-status-owned.png);
+}
+.filter-block.tasting-filter .datalist tbody td.attendance-response.pending span{
+    background-image: url(/modules/Tasting/img/attendance-status-pending.png);
+}
+.filter-block.tasting-filter .datalist tbody td.attendance-response.accepted span{
+    background-image: url(/modules/Tasting/img/attendance-status-accepted.png);
+}
+.filter-block.tasting-filter .datalist tbody td.attendance-response.declined span,
+.filter-block.tasting-filter .datalist tbody td.attendance-response.interested span{
+    background-image: url(/modules/Tasting/img/attendance-status-declined.png);
+}
+.filter-block.tasting-filter .datalist tbody td.attendance-response.uncertain span{
+    background-image: url(/modules/Tasting/img/attendance-status-uncertain.png);
+}
+.filter-block.tasting-filter .datalist tbody td.info a{
+    cursor: pointer;
+    background-image: url(/modules/Tasting/img/info.png);
+}
+.filter-block.tasting-filter .datalist tbody td.custom-add span{
+    cursor: pointer;
+    background-image: url(/modules/Product/img/add.png);
+}

@@ -1,0 +1,1 @@
+<?php $t=array('Name'=>'Name','Variable'=>'Variable','Translation'=>'Translation');

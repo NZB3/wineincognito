@@ -1,0 +1,1 @@
+<?php $t=array('You\'ve been logged in'=>'Вы были авторизованы');

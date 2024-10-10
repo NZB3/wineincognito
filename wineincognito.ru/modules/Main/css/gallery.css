@@ -1,0 +1,90 @@
+.wi-gallery-wrapper{
+    display: none;
+    position: fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,.3);
+    z-index:19001;
+    text-align:center;
+}
+.wi-gallery-wrapper > .helper{
+    display:inline-block;
+    vertical-align: middle;
+    height:100%; 
+}
+.wi-gallery-wrapper > .wi-gallery-container{
+    display:inline-block;
+    vertical-align: middle;
+    /*position: fixed;*/
+    position: relative;
+    width: 80%;
+    height: 80%;
+    background-color: #ddd;
+    /*top: 10%;
+    left: 10%;*/
+    text-align: center;
+}
+.wi-gallery-wrapper > .wi-gallery-container > .image{
+    /*position:fixed;
+    top: 10%;
+    left: 10%;
+    height:80%;
+    width:80%;*/
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display:none;
+    overflow: hidden;
+}
+.wi-gallery-wrapper > .wi-gallery-container > .image > .helper{
+    display:inline-block;
+    vertical-align: middle;
+    height:100%;
+}
+.wi-gallery-wrapper > .wi-gallery-container > .image img{
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    display:inline-block;
+}
+.wi-gallery-wrapper > .wi-gallery-container > .prev, .wi-gallery-wrapper > .wi-gallery-container > .next{
+    width: 256px;
+    height: 256px;
+    position: absolute;
+    top:50%;
+    margin-top:-128px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor:pointer;
+    z-index:20000;
+    opacity:0.2;
+}
+.wi-gallery-wrapper > .wi-gallery-container > .prev{
+    left:0;
+    margin-left:-128px;
+    background-image:url(/modules/Main/img/gallery-prev.png);
+}
+.wi-gallery-wrapper > .wi-gallery-container > .next{
+    right:0;
+    margin-right:-128px;
+    background-image:url(/modules/Main/img/gallery-next.png);
+}
+.wi-gallery-wrapper > .wi-gallery-container > .close{
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top:0;
+    right:0;
+    margin-top:-32px;
+    margin-right:-32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image:url(/modules/Main/img/gallery-close.png);
+    cursor:pointer;
+    z-index:20001;
+    opacity:0.2;
+}

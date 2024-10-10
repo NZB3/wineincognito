@@ -1,0 +1,27 @@
+table.server-error{
+    width:200px;
+    margin: 30px auto 0;
+}
+table.server-error tbody tr{
+    border: 0;
+}
+table.server-error tbody tr,table.server-error tbody tr:nth-child(2n+1),table.server-error tbody tr:hover{
+    background-color: inherit;
+}
+table.server-error tbody td{
+    text-align: center;
+    vertical-align:middle;
+    padding: 10px;
+}
+table.server-error tbody td.err-code{
+    font-size: 100pt;
+    font-weight: bolder;
+    color: #41072f;
+}
+table.server-error tbody td.logo img{
+    max-width: 200px;
+}
+table.server-error tbody td.err-text{
+    letter-spacing: 1pt;
+    font-size: 30pt;
+}

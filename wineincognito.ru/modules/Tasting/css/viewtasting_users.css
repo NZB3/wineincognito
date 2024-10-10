@@ -1,0 +1,137 @@
+.viewTasting-user-list td.remove,.viewTasting-user-list td.present,.viewTasting-user-list td.absent,.viewTasting-user-list td.block-review,
+.viewTasting-user-list th.remove,.viewTasting-user-list th.present,.viewTasting-user-list th.absent,.viewTasting-user-list th.block-review{
+    width:1px;
+    padding:0;
+}
+.viewTasting-user-list .head-buttons span.refresh,.viewTasting-user-list .head-buttons span.add,.viewTasting-user-list td.remove span,.viewTasting-user-list td.present span,.viewTasting-user-list td.absent span,.viewTasting-user-list td.block-review span{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.viewTasting-user-list th{
+    vertical-align: middle;
+}
+.viewTasting-user-list th.score{
+    text-align: center;
+}
+.viewTasting-user-list th.score span{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.viewTasting-user-list th.score.score-personal span{
+    background-image: url(/modules/Product/img/personal-score-header.png);
+}
+.viewTasting-user-list th.score.score0 span{
+    background-image: url(/modules/Product/img/score0-header.png);
+}
+.viewTasting-user-list th.score.score1 span{
+    background-image: url(/modules/Product/img/score1-header.png);
+}
+.viewTasting-user-list th.score.score2 span{
+    background-image: url(/modules/Product/img/score2-header.png);
+}
+.viewTasting-user-list th.score.score3 span{
+    background-image: url(/modules/Product/img/score3-header.png);
+}
+.viewTasting-user-list th.score.automatic-evaluation span{
+    background-image: url(/modules/Tasting/img/evaluation-auto-result.png);
+}
+.viewTasting-user-list th.score.manual-evaluation span{
+    background-image: url(/modules/Tasting/img/evaluation-manual-result.png);
+}
+.viewTasting-user-list th.score.global-expert-automatic-evaluation span{
+    background-image: url(/modules/Tasting/img/evaluation-auto-result.png);
+    opacity: 0.5;
+}
+.viewTasting-user-list .head-buttons span.refresh{
+    background-image: url(/modules/Tasting/img/refresh.png);
+}
+.viewTasting-user-list .head-buttons span.add{
+    background-image: url(/modules/Tasting/img/add.png);
+}
+.viewTasting-user-list td.remove span{
+    background-image: url(/modules/User/img/dismiss.png);
+}
+.viewTasting-user-list td.present span{
+    background-image: url(/modules/Tasting/img/present.png);
+}
+.viewTasting-user-list td.absent span{
+    background-image: url(/modules/Tasting/img/absent.png);
+}
+.viewTasting-user-list td.block-review span{
+    background-image: url(/modules/Tasting/img/visible-fade.png);
+}
+.viewTasting-user-list td.block-review span:hover{
+    background-image: url(/modules/Tasting/img/hidden.png);
+}
+.viewTasting-user-list td.block-review.review-blocked span{
+    background-image: url(/modules/Tasting/img/hidden-fade.png);
+}
+.viewTasting-user-list td.block-review.review-blocked span:hover{
+    background-image: url(/modules/Tasting/img/visible.png);
+}
+.viewTasting-user-list td.score{
+    text-align: center;
+}
+.viewTasting-user-list td.score a, .viewTasting-user-list td.score span{
+    display: block;
+}
+.viewTasting-user-list td.score span.faulty{
+    color: #9d0d39;
+}
+.viewTasting-user-list td.present span,.viewTasting-user-list tr.user-was-present td.absent span{
+    opacity: 0.3;
+    cursor: pointer;
+}
+.viewTasting-user-list td.present span:hover,.viewTasting-user-list tr.user-was-present td.absent span:hover{
+    opacity: 1;
+}
+.viewTasting-user-list tr.user-was-present td.present span,.viewTasting-user-list td.absent span{
+    opacity: 1;
+    cursor: default;
+}
+.viewTasting-user-list.guests-hide tr.guest-user{
+    display: none;
+}
+.viewTasting-user-list tfoot tr.showguests{
+    display:none;
+}
+.viewTasting-user-list tfoot tr.showguests th{
+    cursor: pointer;
+    text-align: center;
+}
+.viewTasting-user-list tfoot tr.showguests th span{
+    text-decoration: underline;
+    background-repeat: no-repeat;
+    background-position: center right;
+    display: inline-block;
+    padding-right: 37px;
+}
+.viewTasting-user-list tfoot tr.showguests th span.show{
+    background-image: url(/modules/Tasting/img/guests-show.png);
+}
+.viewTasting-user-list tfoot tr.showguests th span.hide{
+    background-image: url(/modules/Tasting/img/guests-hide.png);
+}
+.viewTasting-user-list.has-guests tfoot tr.showguests{
+    display: table-row;
+}
+.viewTasting-user-list.has-guests tfoot tr.showguests span.hide,.viewTasting-user-list.has-guests.guests-hide tfoot tr.showguests span.show{
+    display: inline-block;
+}
+.viewTasting-user-list.has-guests.guests-hide tfoot tr.showguests span.hide,.viewTasting-user-list.has-guests tfoot tr.showguests span.show{
+    display: none;
+}
+.viewTasting-user-list td{
+    white-space:nowrap;
+}
+.viewTasting-user-list tbody tr td.empty-col,.viewTasting-user-list tr th.empty-col{
+    display: none;
+}

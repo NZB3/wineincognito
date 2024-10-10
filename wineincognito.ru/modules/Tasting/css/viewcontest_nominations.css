@@ -1,0 +1,67 @@
+.view-contest-nomination-list th.action,.view-contest-nomination-list td.add,.view-contest-nomination-list td.edit,.view-contest-nomination-list td.remove,.view-contest-nomination-list td.raise-index,.view-contest-nomination-list td.lower-index,.view-contest-nomination-list td.certificate-view{
+    width:1px;
+    padding:0;
+}
+.view-contest-nomination-list th.place,.view-contest-nomination-list td.place{
+    width:1px;
+}
+.view-contest-nomination-list tr.nomination td.name{
+    font-weight: bolder;
+}
+.view-contest-nomination-list .head-buttons span.refresh,.view-contest-nomination-list .head-buttons span.add,.view-contest-nomination-list td.add span,.view-contest-nomination-list td.edit span,.view-contest-nomination-list td.remove span,.view-contest-nomination-list td.raise-index span,.view-contest-nomination-list td.lower-index span,.view-contest-nomination-list td.certificate-view a{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.view-contest-nomination-list th{
+    vertical-align: middle;
+}
+.view-contest-nomination-list th.score span.header{
+    display:inline-block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align:middle;
+    cursor:default;
+}
+.view-contest-nomination-list th.score.score1 span.header{
+    background-image: url(/modules/Product/img/score1-header.png);
+}
+.view-contest-nomination-list th.score.score2 span.header{
+    background-image: url(/modules/Product/img/score2-header.png);
+}
+.view-contest-nomination-list th.score.score3 span.header{
+    background-image: url(/modules/Product/img/score3-header.png);
+}
+.view-contest-nomination-list .head-buttons span.refresh{
+    background-image: url(/modules/Tasting/img/refresh.png);
+}
+.view-contest-nomination-list .head-buttons span.add{
+    background-image: url(/modules/Tasting/img/add.png);
+}
+.view-contest-nomination-list td.add span{
+    background-image: url(/modules/Tasting/img/add.png);
+}
+.view-contest-nomination-list td.edit span{
+    background-image: url(/modules/Tasting/img/edit.png);
+}
+.view-contest-nomination-list td.remove span{
+    background-image: url(/modules/Tasting/img/delete.png);
+}
+.view-contest-nomination-list td.raise-index span{
+    background-image: url(/modules/Tasting/img/contest-nomination-index-raise.png);
+}
+.view-contest-nomination-list td.lower-index span{
+    background-image: url(/modules/Tasting/img/contest-nomination-index-lower.png);
+}
+.view-contest-nomination-list td.certificate-view a{
+    background-image: url(/modules/Tasting/img/vintage-certificate-view.png);
+}
+.view-contest-nomination-list td{
+    white-space:nowrap;
+}

@@ -1,0 +1,1 @@
+<?php $t=array('Free'=>'Free','RUB'=>'RUB');

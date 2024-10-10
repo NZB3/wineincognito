@@ -1,0 +1,1 @@
+<?php $t=array('Are you sure you want to delete @1?'=>'Are you sure you want to delete @1?','Product has been successfully deleted'=>'Product has been successfully deleted','Product has been successfully approved'=>'Product has been successfully approved','Products have been successfully merged'=>'Products have been successfully merged');

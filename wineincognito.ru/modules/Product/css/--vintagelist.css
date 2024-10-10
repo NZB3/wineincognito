@@ -1,0 +1,50 @@
+.vintagelist a.add{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+    float:right;
+}
+.vintagelist a.add{
+    background-image: url(/modules/Product/img/add.png);
+}
+.vintagelist thead th.separator{
+    width:100%;
+}
+.vintagelist tbody td{
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.vintagelist tbody td a{
+    display:block;
+}
+.vintagelist tbody td.edit, .vintagelist tbody td.image,
+.vintagelist th.edit, .vintagelist th.image{
+    width:1px;
+    padding:0;
+}
+.vintagelist tbody td.image{
+    vertical-align: middle;
+    text-align:center;
+}
+.vintagelist tbody td.image img{
+    cursor:pointer;
+    display: inline-block;
+    max-width: 40px;
+    max-height: 60px;
+}
+.vintagelist tbody td.edit a{
+    width: 32px;
+    height: 32px;
+    margin: 2px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    cursor: pointer;
+}
+.vintagelist tbody td.edit a{
+    background-image: url(/modules/Product/img/edit.png);
+}

@@ -1,0 +1,106 @@
+#edit-product-form .step1,#edit-product-form .step2,#edit-product-form tr.multilang.step1,#edit-product-form tr.multilang.step2{
+    display: none;
+}
+#edit-product-form.step1 .step1,#edit-product-form.step2 .step2,
+#edit-product-form.step1 table.show_lang_1 tr.lang_1.step1,#edit-product-form.step2 table.show_lang_1 tr.lang_1.step2,
+#edit-product-form.step1 table.show_lang_2 tr.lang_2.step1,#edit-product-form.step2 table.show_lang_2 tr.lang_2.step2{
+    display: table-row;
+}
+#edit-product-form tr.grape-variety ul.blend{
+    text-align:center;
+    white-space:nowrap;
+}
+#edit-product-form tr.grape-variety ul.blend li{
+    display:inline-block;
+    padding: 0px;
+    min-width: 50%;
+}
+#edit-product-form tr.grape-variety ul.blend li > input{
+    display:none;
+}
+#edit-product-form tr.grape-variety ul.blend li label{
+    white-space: nowrap;
+    padding: 4px 8px;
+    display: block;
+    text-decoration: none;
+    border: 1px solid #2ea2cc;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+}
+#edit-product-form tr.grape-variety ul.blend li input:checked + label{
+    background-color: #2ea2cc;
+    color: #fff;
+    /*border: none;*/
+}
+#edit-product-form tr.grape-variety table.blend{
+    display: none;
+}
+#edit-product-form tr.grape-variety table.blend td:first-child{
+    width:100%;
+}
+#edit-product-form tr.grape-variety table.blend td:last-child{
+    padding: 2px;
+}
+#edit-product-form tr.grape-variety table.blend td:last-child input{
+    width: 40px;
+}
+
+
+#edit-product-form-add-image-file{
+    display: none;
+}
+#edit-product-form-image-list li{
+    display: inline-block;
+    height: 150px;
+    width: 100px;
+    margin: 5px;
+    vertical-align: top;
+    text-align: center;
+    position: relative;
+}
+#edit-product-form-image-list li .delete, #edit-product-form-image-list li .make-primary{
+    display: none;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top:0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+#edit-product-form-image-list li .delete{
+    right:0;
+    background-image: url(/modules/Product/img/delete.png);
+}
+#edit-product-form-image-list li .make-primary{
+    left:0;
+    background-image: url(/modules/Product/img/primary-image.png);
+}
+#edit-product-form-image-list li:hover .delete,#edit-product-form-image-list li:hover .make-primary{
+    opacity:0.5;
+    display: block;
+}
+#edit-product-form-image-list li .delete:hover,#edit-product-form-image-list li .make-primary:hover{
+    opacity:1;
+    display: block;
+}
+#edit-product-form-image-list li.primary .make-primary,#edit-product-form-image-list li.primary:hover .make-primary,#edit-product-form-image-list li.primary .make-primary:hover{
+    opacity:1;
+    display: block;
+    cursor: default;
+}
+#edit-product-form-image-list li:hover{
+    background-color:#f9f9f9;
+}
+#edit-product-form-image-list li .helper{
+    display:inline-block;
+    vertical-align: middle;
+    height:100%;
+}
+#edit-product-form-image-list li img{
+    max-height: 150px;
+    max-width: 100px;
+    vertical-align: middle;
+}

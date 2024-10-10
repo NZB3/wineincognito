@@ -1,0 +1,63 @@
+.view-contest-tasting-list td.remove,
+.view-contest-tasting-list th.remove{
+    width:1px;
+    padding:0;
+}
+.view-contest-tasting-list th.date,.view-contest-tasting-list th.status,.view-contest-tasting-list th.owner{
+    width:1px;
+}
+.view-contest-tasting-list th.name{
+    width:100%;
+}
+.view-contest-tasting-list td.name span.location{
+    white-space: normal;
+    display:block;
+    font-style: italic;
+    font-size:80%;
+}
+.view-contest-tasting-list td.name span.assessment{
+    white-space: nowrap;
+    display: inline-block;
+    font-style: italic;
+    font-size:80%;
+    margin-left: 10px;
+}
+.view-contest-tasting-list td.name span.assessment:before{
+    content:"(";
+}
+.view-contest-tasting-list td.name span.assessment:after{
+    content:")";
+}
+.view-contest-tasting-list td.name span.assessment.denied,.view-contest-tasting-list td.name span.assessment.private{
+    color: #9d0d39;
+}
+.view-contest-tasting-list td.name span.assessment.awaiting{
+    color: #888;
+}
+.view-contest-tasting-list .head-buttons span.refresh,.view-contest-tasting-list .head-buttons span.add,.view-contest-tasting-list td.remove span{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.view-contest-tasting-list th{
+    vertical-align: middle;
+}
+.view-contest-tasting-list .head-buttons span.refresh{
+    background-image: url(/modules/Tasting/img/refresh.png);
+}
+.view-contest-tasting-list .head-buttons span.add{
+    background-image: url(/modules/Tasting/img/add.png);
+}
+.view-contest-tasting-list td.remove span{
+    background-image: url(/modules/Tasting/img/delete.png);
+}
+.view-contest-tasting-list td{
+    white-space:nowrap;
+}
+.view-contest-tasting-list tbody tr td.empty-col,.view-contest-tasting-list tr th.empty-col{
+    display: none;
+}

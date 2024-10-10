@@ -1,0 +1,42 @@
+.companylist th.separator{
+    width:100%;
+}
+.companylist tbody td{
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.companylist tbody td a{
+    display:block;
+}
+.companylist tbody td.approve,.companylist tbody td.delete,.companylist tbody td.edit,.companylist tbody td.join,.companylist tbody td.api-access,
+.companylist th.approve,.companylist th.delete,.companylist th.edit,.companylist th.join,.companylist th.api-access{
+    width:0;
+    padding:0;
+}
+.companylist tbody td.approve span,.companylist tbody td.delete span,.companylist tbody td.edit a,.companylist tbody td.join span,.companylist tbody td.api-access span{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    cursor: pointer;
+    margin: 2px;
+}
+.companylist tbody td.approve span{
+    background-image: url(/modules/User/img/approve.png);
+}
+.companylist tbody td.api-access span{
+    background-image: url(/modules/User/img/api-access-disabled.png);
+}
+.companylist tbody td.api-access.has-access span{
+    background-image: url(/modules/User/img/api-access.png);
+}
+.companylist tbody td.delete span{
+    background-image: url(/modules/User/img/delete.png);
+}
+.companylist tbody td.edit a{
+    background-image: url(/modules/User/img/edit.png);
+}
+.companylist tbody td.join span{
+    background-image: url(/modules/User/img/join.png);
+}

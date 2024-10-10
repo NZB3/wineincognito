@@ -1,0 +1,107 @@
+.merge-review td, .merge-review th{
+    white-space: nowrap;
+}
+.merge-review tbody td.color{
+    width: 32px;
+    height: 32px;
+    padding: 0;
+}
+.merge-review tbody td.img{
+    padding:0;
+    vertical-align: middle;
+}
+.merge-review tbody td.img img{
+    max-width: 32px;
+    max-height: 32px;
+    display:inline-block;
+    vertical-align:middle;
+}
+.merge-review tbody td.val{
+    text-align: center;
+}
+.merge-review tbody td.correct-value{
+    font-weight: bold;
+}
+.merge-review tbody td.score-evaluation-settings{
+    padding: 0;
+}
+.merge-review tbody td.score-evaluation-settings table tr{
+    border: 0;
+}
+.merge-review tbody td.score{
+    text-align:center;
+    width:1px;
+    padding:0;
+}
+.merge-review tbody td.scoreview{
+    text-align:left;
+    width:1px;
+    padding: 0;
+}
+.merge-review tbody td.scoreview span{
+    display: block;
+    text-align: center;
+}
+.merge-review tbody td.score ul,.merge-review tbody td.scoreview ul{
+    white-space: nowrap;
+    height:32px;
+}
+.merge-review tbody td.score ul li,.merge-review tbody td.scoreview ul li{
+    display: inline-block;
+}
+.merge-review tbody td.score ul li input{
+    display: none;
+}
+.merge-review tbody td.score ul li label,
+.merge-review tbody td.scoreview ul li label{
+    display: block;
+    width:32px;
+    height:32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.merge-review tbody td.score ul li label{
+    background-image: url(/modules/Tasting/img/evaluation-score-off.png);
+}
+.merge-review tbody td.scoreview ul li label,
+.merge-review tbody td.score ul li.checked label{
+    background-image: url(/modules/Tasting/img/evaluation-score-on-5.png);
+}
+.merge-review tbody td.scoreview ul li:nth-child(1) label,
+.merge-review tbody td.score ul li.checked:nth-child(2) label{
+    background-image: url(/modules/Tasting/img/evaluation-score-on-1.png);
+}
+.merge-review tbody td.scoreview ul li:nth-child(2) label,
+.merge-review tbody td.score ul li.checked:nth-child(3) label{
+    background-image: url(/modules/Tasting/img/evaluation-score-on-2.png);
+}
+.merge-review tbody td.scoreview ul li:nth-child(3) label,
+.merge-review tbody td.score ul li.checked:nth-child(4) label{
+    background-image: url(/modules/Tasting/img/evaluation-score-on-3.png);
+}
+.merge-review tbody td.scoreview ul li:nth-child(4) label,
+.merge-review tbody td.score ul li.checked:nth-child(5) label{
+    background-image: url(/modules/Tasting/img/evaluation-score-on-4.png);
+}
+.merge-review tbody td.scoreview ul li:nth-child(5) label,
+.merge-review tbody td.score ul li.checked:nth-child(6) label{
+    background-image: url(/modules/Tasting/img/evaluation-score-on-5.png);
+}
+.merge-review tbody td.score ul li:first-child label,
+.merge-review tbody td.score ul li.checked:first-child label{
+    background-image: url(/modules/Tasting/img/evaluation-score-clear.png);
+}
+.merge-review tbody td.submit{
+    text-align:right;
+}
+
+.merge-review-template-expert-list th{
+    font-weight: bold;
+    text-align: center;
+}
+.merge-review-template-expert-list tr, .merge-review-template-expert-list tr:hover, .merge-review-template-expert-list tr:nth-child(2n+1){
+    background-color:inherit;
+}
+.merge-review-template-expert-list tbody td.submit{
+    text-align:right;
+}

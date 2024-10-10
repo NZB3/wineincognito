@@ -1,0 +1,18 @@
+php_value upload_max_filesize 1024M
+php_value post_max_size 2048M
+php_value max_input_time 200
+php_value magic_quotes_gpc Off
+php_value session.name "WineIncognito_PHPSESSID"
+php_value session.cookie_lifetime 31536000
+php_value session.gc_maxlifetime 604800
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_URI} !^/?apiexample
+RewriteCond %{REQUEST_URI} !(\.png|\.jpg|\.jpeg|\.gif|\.css|\.js|\.ico|\.ttf|\.woff|\.eof)$
+RewriteRule . /index.php [L]
+</IfModule>
+

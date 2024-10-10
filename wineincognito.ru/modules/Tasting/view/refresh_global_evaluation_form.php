@@ -1,0 +1,1 @@
+<form method="POST" class="refresh-global-evaluation-form subcontent"><input type="submit" class="mainbtn" value="<?=langTranslate('tasting','expert evaluation','Refresh global expert evaluations', 'Refresh global expert evaluations');?>" /></form>

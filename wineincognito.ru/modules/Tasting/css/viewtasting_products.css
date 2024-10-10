@@ -1,0 +1,195 @@
+.viewTasting-vintage-list td.blindness,.viewTasting-vintage-list td.raise-index,.viewTasting-vintage-list td.lower-index,.viewTasting-vintage-list td.request-reviews,.viewTasting-vintage-list td.stop-reviews,.viewTasting-vintage-list td.manual-evaluation,.viewTasting-vintage-list td.edit,.viewTasting-vintage-list td.remove,
+.viewTasting-vintage-list th.blindness,.viewTasting-vintage-list th.raise-index,.viewTasting-vintage-list th.lower-index,.viewTasting-vintage-list th.request-reviews,.viewTasting-vintage-list th.stop-reviews,.viewTasting-vintage-list th.manual-evaluation,.viewTasting-vintage-list th.remove,.viewTasting-vintage-list th.remove{
+    width:1px;
+    padding:0;
+}
+.viewTasting-vintage-list .head-buttons span.refresh,.viewTasting-vintage-list .head-buttons span.add,.viewTasting-vintage-list td.blindness.blind span,.viewTasting-vintage-list td.raise-index span,.viewTasting-vintage-list td.lower-index span,.viewTasting-vintage-list td.request-reviews span,.viewTasting-vintage-list td.stop-reviews span,.viewTasting-vintage-list td.auto-evaluation-results a,.viewTasting-vintage-list td.manual-evaluation a,.viewTasting-vintage-list td.edit span,.viewTasting-vintage-list td.remove span{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.viewTasting-vintage-list td.blindness.blind span{
+    cursor: default;
+}
+.viewTasting-vintage-list .head-buttons span.refresh{
+    background-image: url(/modules/Tasting/img/refresh.png);
+}
+.viewTasting-vintage-list .head-buttons span.add{
+    background-image: url(/modules/Tasting/img/add.png);
+}
+.viewTasting-vintage-list th.score{
+    padding:0;
+    text-align: center;
+
+}
+.viewTasting-vintage-list th.score span{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.viewTasting-vintage-list th.score.score-personal span{
+    background-image: url(/modules/Product/img/personal-score-header.png);
+}
+.viewTasting-vintage-list th.score.score0 span{
+    background-image: url(/modules/Product/img/score0-header.png);
+}
+.viewTasting-vintage-list th.score.score1 span{
+    background-image: url(/modules/Product/img/score1-header.png);
+}
+.viewTasting-vintage-list th.score.score2 span{
+    background-image: url(/modules/Product/img/score2-header.png);
+}
+.viewTasting-vintage-list th.score.score3 span{
+    background-image: url(/modules/Product/img/score3-header.png);
+}
+
+.viewTasting-vintage-list th.score.automatic-evaluation span{
+    background-image: url(/modules/Tasting/img/evaluation-auto-result.png);
+}
+.viewTasting-vintage-list th.score.manual-evaluation span{
+    background-image: url(/modules/Tasting/img/evaluation-manual-result.png);
+}
+.viewTasting-vintage-list th.score.global-expert-automatic-evaluation span{
+    background-image: url(/modules/Tasting/img/evaluation-auto-result.png);
+    opacity: 0.5;
+}
+.viewTasting-vintage-list td.score{
+    text-align: center;
+}
+/*.viewTasting-vintage-list.viewTasting-vintage-list-multiple-select tbody tr td.multiple-select,.viewTasting-vintage-list td.review-existance,.viewTasting-vintage-list td.index{
+    vertical-align: top;
+}*/
+.viewTasting-vintage-list td.review-existance span{
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    vertical-align:middle;
+    background-image: url(/modules/Tasting/img/vintage-review-doesnt-exist.png);
+}
+.viewTasting-vintage-list td.review-existance.review-exists span{
+    background-image: url(/modules/Tasting/img/vintage-review-exists.png);
+}
+.viewTasting-vintage-list td.blindness.blind span{
+    background-image: url(/modules/Tasting/img/tasting-vintage-blind.png);
+}
+.viewTasting-vintage-list td.raise-index span{
+    background-image: url(/modules/Tasting/img/vintage-index-raise.png);
+}
+.viewTasting-vintage-list td.lower-index span{
+    background-image: url(/modules/Tasting/img/vintage-index-lower.png);
+}
+.viewTasting-vintage-list td.request-reviews span{
+    background-image: url(/modules/Tasting/img/vintage-request-reviews.png);
+}
+.viewTasting-vintage-list td.stop-reviews span{
+    background-image: url(/modules/Tasting/img/vintage-stop-reviews.png);
+}
+.viewTasting-vintage-list td.manual-evaluation a.set-manual-evaluation{
+    background-image: url(/modules/Tasting/img/evaluation-manual-set.png);
+}
+.viewTasting-vintage-list td.manual-evaluation a.view-manual-evaluation{
+    background-image: url(/modules/Tasting/img/evaluation-manual-result.png);
+}
+.viewTasting-vintage-list td.edit span{
+    background-image: url(/modules/Tasting/img/edit.png);
+}
+.viewTasting-vintage-list td.remove span{
+    background-image: url(/modules/Tasting/img/delete.png);
+}
+.viewTasting-vintage-list td,.viewTasting-vintage-list th{
+    width:1px;
+    vertical-align: middle;
+}
+.viewTasting-vintage-list td.name,.viewTasting-vintage-list th.name{
+    width:100%;
+}
+.viewTasting-vintage-list td.name span.primeur,.viewTasting-vintage-list td.name span.lot{
+    font-style: italic;
+    font-size: 80%;
+    display: block;
+}
+.viewTasting-vintage-list td.name span.lot label{
+    font-style: normal;
+}
+.viewTasting-vintage-list td.name span.lot label:after{
+    content:": ";
+}
+
+.viewTasting-vintage-list tbody td.image{
+    vertical-align: middle;
+    text-align:center;
+}
+.viewTasting-vintage-list tbody td.image img{
+    cursor:pointer;
+    display: inline-block;
+    max-width: 40px;
+    max-height: 60px;
+}
+.viewTasting-vintage-list tbody td.volume{
+    text-align:center;
+    white-space:nowrap;
+}
+.viewTasting-vintage-list tbody td.preparation{
+    text-align:left;
+    white-space:nowrap;
+}
+.viewTasting-vintage-list tbody td.preparation.can-change{
+    cursor:pointer;
+}
+.viewTasting-vintage-list tbody td.preparation span{
+    display:block;
+}
+.viewTasting-vintage-list td.score{
+    white-space: nowrap;
+    text-align: center;
+}
+.viewTasting-vintage-list td.score a{
+    display: block;
+}
+/*.viewTasting-vintage-list td.score.draw-attention a{
+    color:#a10035;
+}
+.viewTasting-vintage-list td.score.draw-attention a:hover{
+    color:#d02d4b;
+}*/
+.viewTasting-vintage-list td.awaiting-review-count{
+    white-space: nowrap;
+    text-align: center;
+}
+.viewTasting-vintage-list td span.awaiting-approval{
+    display: inline-block;
+    margin-left: 10px;
+    color: #888;
+}
+.viewTasting-vintage-list td span.awaiting-approval:before{
+    content:"(";
+}
+.viewTasting-vintage-list td span.awaiting-approval:after{
+    content:")";
+}
+.viewTasting-vintage-list.viewTasting-vintage-list-multiple-select tbody tr td.multiple-select span{
+    display: inline-block;
+    min-height: 24px;
+    min-width: 24px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-image: url(/modules/Main/img/checkbox.png);
+    margin: 0 4px;
+    cursor:pointer;
+}
+.viewTasting-vintage-list.viewTasting-vintage-list-multiple-select tbody tr.viewTasting-vintage-list-multiple-select-selected td.multiple-select span{
+    background-image: url(/modules/Main/img/checkbox-checked.png);
+}
+
+.viewTasting-vintage-list tbody tr td.empty-col,.viewTasting-vintage-list tr th.empty-col{
+    display: none;
+}

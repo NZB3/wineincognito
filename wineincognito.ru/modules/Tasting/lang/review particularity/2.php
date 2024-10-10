@@ -1,0 +1,1 @@
+<?php $t=array('Are you sure you want to finish the tasting of "@1"?'=>'Are you sure you want to finish the tasting of "@1"?');

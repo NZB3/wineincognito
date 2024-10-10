@@ -1,0 +1,1 @@
+<?php $t=array('Reset'=>'Reset','Reset password'=>'Reset password','Please check your inbox for further instructions'=>'Please check your inbox for further instructions','Password recovery'=>'Password recovery');

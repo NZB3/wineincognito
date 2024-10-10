@@ -1,0 +1,1 @@
+<?php $t=array('Amateur'=>'Amateur','Beginner Expert'=>'Beginner Expert','Expert'=>'Expert','Professional Expert'=>'Professional Expert','Personal'=>'Personal');

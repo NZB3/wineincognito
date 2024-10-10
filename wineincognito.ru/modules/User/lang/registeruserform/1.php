@@ -1,0 +1,1 @@
+<?php $t=array('User have been registered'=>'User have been registered','Username'=>'E-mail','Password'=>'Password','Repeat password'=>'Repeat password','Register'=>'Register','Processing consent'=>'I agree to the @1processing of my personal data@2');

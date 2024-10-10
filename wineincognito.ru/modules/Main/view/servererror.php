@@ -1,0 +1,1 @@
+<table class="server-error"><tbody><tr><td class="err-code"><?=htmlentities($err_code)?></td><td class="logo"><a href="<?=BASE_URL?>"><img src="<?=BASE_URL?>/modules/Main/img/logo.png" /></a></td></tr><tr><td colspan="2" class="err-text"><?=$err_text?></td></tr></tbody></table>

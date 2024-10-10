@@ -1,0 +1,6 @@
+<?php
+DEFINE('SQLCORE\DBHOST','127.0.0.1');
+
+DEFINE('SQLCORE\DBUSER','dbuser');
+DEFINE('SQLCORE\DBPASS','dbpass');
+DEFINE('SQLCORE\DBNAME','dbname');

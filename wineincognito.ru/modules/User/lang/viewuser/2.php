@@ -1,0 +1,1 @@
+<?php $t=array('E-mail'=>'E-mail','Phone'=>'Телефон','Last name'=>'Фамилия','First name'=>'Имя','Expert'=>'Эксперт','Waiting for approval'=>'Ожидает одобрения','Company'=>'Компания','Patronymic'=>'Отчество','Background'=>'Профессия');

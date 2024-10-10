@@ -1,0 +1,1 @@
+<?php $t=array('Pending'=>'Ожидается','Accept'=>'Согласен','Decline'=>'Отказ','Uncertain'=>'Не уверен','Interested, but can\'t attend'=>'Интересно, но не могу присутствовать');

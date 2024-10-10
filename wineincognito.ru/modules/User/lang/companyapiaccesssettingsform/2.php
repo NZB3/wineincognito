@@ -1,0 +1,1 @@
+<?php $t=array('API access'=>'Доступ к API','Login'=>'Логин','Password'=>'Пароль','Save'=>'Сохранить','Password set'=>'Пароль установлен');

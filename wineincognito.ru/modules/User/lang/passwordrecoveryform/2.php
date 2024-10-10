@@ -1,0 +1,1 @@
+<?php $t=array('Reset'=>'Сбросить','Reset password'=>'Сброс пароля','Please check your inbox for further instructions'=>'Пожалуйста, следуйте инструкциям, отправленным на Вашу почту','Password recovery'=>'Восстановление пароля');

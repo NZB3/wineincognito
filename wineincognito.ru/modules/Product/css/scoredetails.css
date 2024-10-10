@@ -1,0 +1,12 @@
+table.scoredetails th{
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+table.scoredetails td.score,
+table.scoredetails td.expert{
+    text-align: center;
+}
+table.scoredetails td{
+    white-space: nowrap;
+}

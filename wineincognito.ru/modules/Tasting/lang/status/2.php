@@ -1,0 +1,1 @@
+<?php $t=array('Deleted'=>'Удалена','Draft'=>'Черновик','Preparation'=>'Подготовка','Started'=>'Началась','Finished'=>'Завершена');

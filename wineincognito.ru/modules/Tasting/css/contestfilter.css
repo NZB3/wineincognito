@@ -1,0 +1,33 @@
+.filter-block.contest-filter .datalist a.add{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+    float:right;
+}
+.filter-block.contest-filter .datalist a.add{
+    background-image: url(/modules/Tasting/img/add.png);
+}
+.filter-block.contest-filter .datalist th.name,.filter-block.contest-filter .datalist td.name{
+    width:100%;
+}
+.filter-block.contest-filter .datalist td.name{
+    white-space: nowrap;
+}
+.filter-block.contest-filter .datalist th.status,.filter-block.contest-filter .datalist td.status{
+    white-space: nowrap;
+    width:0px;
+}
+.filter-block.contest-filter .datalist tbody td{
+    vertical-align: middle;
+}
+.filter-block.contest-filter .datalist tbody td a{
+    display:block;
+}
+.filter-block.contest-filter .datalist tbody td.info a{
+    cursor: pointer;
+    background-image: url(/modules/Tasting/img/info.png);
+}

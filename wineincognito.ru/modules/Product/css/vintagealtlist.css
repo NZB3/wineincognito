@@ -1,0 +1,13 @@
+.vintageAltList a.add{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+    float:right;
+}
+.vintageAltList a.add{
+    background-image: url(/modules/Product/img/add.png);
+}

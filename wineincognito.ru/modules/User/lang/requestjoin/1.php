@@ -1,0 +1,1 @@
+<?php $t=array('Request sent'=>'Request sent','Are you sure you want to join @1?'=>'Are you sure you want to join @1?');

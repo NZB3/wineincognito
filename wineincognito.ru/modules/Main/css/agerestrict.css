@@ -1,0 +1,30 @@
+.agerestrict tr, .agerestrict tr:nth-child(2n+1),.agerestrict tr:hover{
+    background-color:#fff;
+}
+.agerestrict tr.confirm td,.agerestrict tr.deny td{
+    text-align: justify;
+}
+.agerestrict tr.header td,.agerestrict tr.buttons td{
+    width:50%;
+    text-align:center;
+    vertical-align: middle;
+}
+.agerestrict tr.header td.age{
+    font-size:160px;
+    line-height: 1;
+    font-weight: bold;
+    color: #41062d;
+}
+.agerestrict tr.header td.logo img{
+    max-width:100%;
+    width: 290px;
+}
+.agerestrict tr.buttons td input[type=button]{
+    width:250px;
+}
+.agerestrict tr.deny{
+    display:none;
+}
+.agerestrict p.focus{
+    font-weight:bold;
+}

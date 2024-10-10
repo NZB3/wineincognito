@@ -1,0 +1,3 @@
+<div class="subcontent tastingswapreviews-button">
+<script type="string" class="err_string_two_products"><?=langTranslate('tasting','err','You have to choose two tasting products to swap reviews','You have to choose two tasting products to swap reviews')?></script>
+<button class="submitbtn " data-tid="<?=$tasting_id?>" data-uid="<?=$user_id?>"><?=langTranslate('tasting','swap reviews','Swap','Swap')?></button></div>

@@ -1,0 +1,1 @@
+<?php $t=array('Review particularity options'=>'Review particularity options','Skip'=>'Skip','Request'=>'Request','Review particularity have been successfully modified'=>'Review particularity have been successfully modified','Score submission - Score calc'=>'Score calc','Score submission - Manual'=>'Manual');

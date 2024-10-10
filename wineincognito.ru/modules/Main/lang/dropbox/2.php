@@ -1,0 +1,1 @@
+<?php $t=array('With all'=>'Со всеми','Click to select'=>'Нажмите для выбора','Clear'=>'Очистить','Show not important'=>'Показать редкие','Hide not important'=>'Скрыть редкие','Show non-regional'=>'Показать "вне региона"','Hide non-regional'=>'Скрыть "вне региона"');

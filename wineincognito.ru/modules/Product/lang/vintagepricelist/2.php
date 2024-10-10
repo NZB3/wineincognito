@@ -1,0 +1,1 @@
+<?php $t=array('Price List'=>'Прайс-лист');

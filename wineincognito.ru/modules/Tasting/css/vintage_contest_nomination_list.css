@@ -1,0 +1,54 @@
+.vintage-contest-nomination-list th.action,.vintage-contest-nomination-list th.logo,
+.vintage-contest-nomination-list td.certificate-view,.vintage-contest-nomination-list td.logo{
+    width:1px;
+    padding:0;
+}
+.vintage-contest-nomination-list td.logo {
+    vertical-align:middle;
+}
+.vintage-contest-nomination-list td.logo img{
+    display: block;
+    max-height: 70px;
+}
+.vintage-contest-nomination-list th.place,.vintage-contest-nomination-list td.place{
+    width:1px;
+}
+.vintage-contest-nomination-list tr.contest td.name{
+    font-weight: bolder;
+}
+.vintage-contest-nomination-list tr.nomination-winner td.name{
+    width: 100%;
+}
+.vintage-contest-nomination-list td.certificate-view a{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.vintage-contest-nomination-list th{
+    vertical-align: middle;
+}
+.vintage-contest-nomination-list th.score span.header{
+    display:inline-block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align:middle;
+    cursor:default;
+}
+.vintage-contest-nomination-list th.score.score3 span.header{
+    background-image: url(/modules/Product/img/score3-header.png);
+}
+.vintage-contest-nomination-list td.certificate-view a{
+    background-image: url(/modules/Tasting/img/vintage-certificate-view.png);
+}
+.vintage-contest-nomination-list td{
+    white-space:nowrap;
+}
+.vintage-contest-nomination-list td.name{
+    white-space: normal;
+}

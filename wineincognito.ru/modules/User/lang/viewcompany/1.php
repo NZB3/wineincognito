@@ -1,0 +1,1 @@
+<?php $t=array('Name'=>'Name','ITN'=>'ITN','Contact person'=>'Contact person','Contact person name'=>'Name','Contact person e-mail'=>'E-mail','Contact person phone'=>'Phone');

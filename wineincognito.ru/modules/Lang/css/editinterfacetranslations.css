@@ -1,0 +1,42 @@
+.translationlist td{
+    white-space:nowrap;
+    vertical-align:middle;
+}
+.translationlist th{
+    vertical-align: middle;
+    text-align: center;
+}
+.translationlist td input{
+    vertical-align:middle;
+}
+.translationlist td input[disabled]{
+    background-color:inherit;
+    border-color:transparent;
+    color:inherit;
+}
+.translationlist td span.hiddenmeasure{
+    display:none;
+}
+.translationlist td span.edit, .translationlist td span.save, .translationlist td span.saving{
+    width:32px;
+    height:32px;
+    background-position:center center;
+    background-repeat:no-repeat;
+    vertical-align:middle;
+    display: none;
+}
+.translationlist td span.edit, .translationlist td span.save{
+    cursor:pointer;
+}
+.translationlist td span.edit{
+    background-image:url(/modules/Lang/img/edit.png);
+}
+.translationlist td span.save{
+    background-image:url(/modules/Lang/img/save.png);
+}
+.translationlist td span.saving{
+    background-image:url(/modules/Lang/img/saving.gif);
+}
+.translationlist td.disabled span.edit, .translationlist td.editing span.save, .translationlist td.saving span.saving{
+    display:inline-block;
+}

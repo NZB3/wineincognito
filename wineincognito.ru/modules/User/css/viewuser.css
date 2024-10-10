@@ -1,0 +1,74 @@
+.viewUser a.edit,.viewUser a.change_password, .viewUser a.user-settings{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.viewUser a.edit{
+    background-image: url(/modules/User/img/edit.png);
+}
+.viewUser a.change_password{
+    background-image: url(/modules/User/img/change_password.png);
+}
+.viewUser a.user-settings{
+    background-image: url(/modules/User/img/settings.png);
+}
+table.viewUser td{
+    vertical-align: middle;
+}
+table.viewUser td.label{
+    width:1px;
+    white-space: nowrap;
+    text-align:right;
+    vertical-align: top;
+}
+table.viewUser td.label:after{
+    content:":";
+}
+/*table.viewUser td.expert span{
+    display: inline-block;
+    vertical-align: middle;
+}*/
+table.viewUser td.expert{
+    line-height: 30px;
+}
+table.viewUser td.expert span.waiting-for-approval{
+    display: inline-block;
+    margin-left: 10px;
+    color: #888;
+}
+table.viewUser td.expert span.waiting-for-approval:before{
+    content: "(";
+}
+table.viewUser td.expert span.waiting-for-approval:after{
+    content: ")";
+}
+table.viewUser td.expert span.request-expert-change-reason{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: default;
+    margin-left: 5px;
+    background-image: url(/modules/User/img/info.png);
+    vertical-align:middle;
+}
+/*table.viewUser td.expert span.approve,table.viewUser td.expert span.deny{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+}
+table.viewUser td.expert span.approve{
+    background-image: url(/modules/User/img/approve.png);
+}
+table.viewUser td.expert span.deny{
+    background-image: url(/modules/User/img/deny.png);
+}*/

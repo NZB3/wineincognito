@@ -1,0 +1,1 @@
+<?php $t=array('Name'=>'Name','Attribute have been edited'=>'Attribute have been edited','Attributes'=>'Attributes','Parent'=>'Parent','Display'=>'Display','Show translation'=>'Show translation','Show only origin name'=>'Show only origin name','Values'=>'Values','Equivalent'=>'Equivalent','Divided by importance'=>'Divided by importance','Save'=>'Save');

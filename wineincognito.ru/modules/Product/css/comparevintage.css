@@ -1,0 +1,16 @@
+table.viewVintage.compare thead tr.head-buttons th{
+    text-align:left;
+    vertical-align:top;
+}
+table.viewVintage.compare thead tr.head-buttons th .mainbtn{
+    display:inline-block;
+    vertical-align:top;
+    margin: 0 5px;
+}
+table.viewVintage.compare thead tr:not(.head-buttons) th:nth-child(2),
+table.viewVintage.compare tbody tr td:nth-child(2){
+    border-right: 1px solid #e1e1e1;
+}
+table.viewVintage.compare tbody tr.merge-into td{
+    text-align:center;
+}

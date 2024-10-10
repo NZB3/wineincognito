@@ -1,0 +1,72 @@
+.tasting-vintage-ranking-edit td.raise-index,.tasting-vintage-ranking-edit td.lower-index,
+.tasting-vintage-ranking-edit th.raise-index,.tasting-vintage-ranking-edit th.lower-index{
+    width:1px;
+    padding:0;
+}
+.tasting-vintage-ranking-edit td.raise-index span,.tasting-vintage-ranking-edit td.lower-index span{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.tasting-vintage-ranking-edit td.raise-index span{
+    background-image: url(/modules/Tasting/img/vintage-index-raise.png);
+}
+.tasting-vintage-ranking-edit td.lower-index span{
+    background-image: url(/modules/Tasting/img/vintage-index-lower.png);
+}
+.tasting-vintage-ranking-edit tr:first-child td.raise-index span,
+.tasting-vintage-ranking-edit tr:last-child td.lower-index span{
+    display: none;
+}
+.tasting-vintage-ranking-edit td,.tasting-vintage-ranking-edit th{
+    width:1px;
+    vertical-align: middle;
+}
+.tasting-vintage-ranking-edit td.name,.tasting-vintage-ranking-edit th.name{
+    width:100%;
+}
+.tasting-vintage-ranking-edit td.name span.primeur,.tasting-vintage-ranking-edit td.name span.lot{
+    font-style: italic;
+    font-size: 80%;
+    display: block;
+}
+.tasting-vintage-ranking-edit td.name span.lot label{
+    font-style: normal;
+}
+.tasting-vintage-ranking-edit td.name span.lot label:after{
+    content:": ";
+}
+
+.tasting-vintage-ranking-edit tbody td.image{
+    vertical-align: middle;
+    text-align:center;
+}
+.tasting-vintage-ranking-edit tbody td.image img{
+    cursor:pointer;
+    display: inline-block;
+    max-width: 40px;
+    max-height: 60px;
+}
+.tasting-vintage-ranking-edit tbody td.volume{
+    text-align:center;
+    white-space:nowrap;
+}
+.tasting-vintage-ranking-edit tfoot th{
+    text-align: right;
+}
+.tasting-vintage-ranking-edit.dragging{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: grabbing !important;
+}
+.tasting-vintage-ranking-edit tbody tr td.index{
+    cursor: grab;
+}

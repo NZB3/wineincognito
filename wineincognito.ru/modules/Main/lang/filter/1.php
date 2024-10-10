@@ -1,0 +1,1 @@
+<?php $t=array('Reset'=>'Reset','Filter'=>'Filter','Per Page'=>'Per Page','Search'=>'Search');

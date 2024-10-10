@@ -1,0 +1,1 @@
+<?php $mn=array('view'=>'View','sendmail'=>'Sendmail','api'=>'Api','tasting'=>'Tasting','menu'=>'Menu','page'=>'Page','user'=>'User','main'=>'Main','product'=>'Product','lang'=>'Lang','sqlcore'=>'Sqlcore');

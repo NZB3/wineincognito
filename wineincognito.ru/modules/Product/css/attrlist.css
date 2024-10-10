@@ -1,0 +1,52 @@
+.attrlist a.add{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+    float: right;
+}
+.attrlist a.add{
+    background-image: url(/modules/Product/img/add.png);
+}
+.attrlist thead th.separator{
+    width:100%;
+}
+.attrlist tbody td{
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.attrlist tbody td a{
+    display:block;
+}
+.attrlist tbody td.edit,.attrlist tbody td.hide,
+.attrlist th.edit,.attrlist th.hide{
+    width:0;
+    padding:0;
+}
+.attrlist tbody td.hide span,.attrlist tbody td.edit a{
+    width: 32px;
+    height: 32px;
+    margin: 2px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    cursor: pointer;
+}
+.attrlist tbody tr.hidden td.hide span{
+    background-image: url(/modules/Product/img/hidden-fade.png);
+}
+.attrlist tbody tr.hidden td.hide span:hover{
+    background-image: url(/modules/Product/img/hidden.png);
+}
+.attrlist tbody tr.visible td.hide span{
+    background-image: url(/modules/Product/img/visible-fade.png);
+}
+.attrlist tbody tr.visible td.hide span:hover{
+    background-image: url(/modules/Product/img/visible.png);
+}
+.attrlist tbody td.edit a{
+    background-image: url(/modules/Product/img/edit.png);
+}

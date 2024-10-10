@@ -1,0 +1,109 @@
+.viewVintage a.edit,
+.viewVintage a.compare,
+.viewVintage span.favourite_btn.favourite,.viewVintage a.edit,.viewVintage span.favourite_btn.can-favourite,
+.viewVintage span.company_favourite_btn.favourite,.viewVintage a.edit,.viewVintage span.company_favourite_btn.can-favourite,
+.viewVintage span.delete,
+.viewVintage span.approve,
+.viewVintage a.add-review{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    margin-left: 5px;
+    float:right;
+}
+.viewVintage a.edit,
+.viewVintage a.compare,
+.viewVintage span.favourite_btn.can-favourite,
+.viewVintage span.company_favourite_btn.can-favourite,
+.viewVintage span.delete,
+.viewVintage span.approve,
+.viewVintage a.add-review{
+    cursor: pointer;
+}
+.viewVintage a.edit{
+    background-image: url(/modules/Product/img/edit.png);
+}
+.viewVintage a.compare{
+    background-image: url(/modules/Product/img/compare.png);
+}
+.viewVintage span.favourite_btn.can-favourite{
+    background-image: url(/modules/Product/img/favourite-off.png);
+}
+.viewVintage span.favourite_btn.favourite,.viewVintage span.favourite_btn.can-favourite.favourite{
+    background-image: url(/modules/Product/img/favourite-on.png);
+}
+.viewVintage span.company_favourite_btn.can-favourite{
+    background-image: url(/modules/Product/img/company-favourite-off.png);
+}
+.viewVintage span.company_favourite_btn.favourite,.viewVintage span.company_favourite_btn.can-favourite.company-favourite{
+    background-image: url(/modules/Product/img/company-favourite-on.png);
+}
+.viewVintage span.delete{
+    background-image: url(/modules/Product/img/delete.png);
+}
+.viewVintage span.approve{
+    background-image: url(/modules/Product/img/approve.png);
+}
+.viewVintage a.add-review{
+    background-image: url(/modules/Product/img/add-review.png);
+}
+#content .subcontent.viewVintage{
+    margin-top:30px;
+}
+#content .subcontent.viewVintage:first-child{
+    margin-top:0;
+}
+.viewVintage thead span.awaiting-approval{
+    display: inline-block;
+    margin-left: 10px;
+    color: #888;
+}
+.viewVintage thead span.awaiting-approval:before{
+    content:"(";
+}
+.viewVintage thead span.awaiting-approval:after{
+    content:")";
+}
+.viewVintage td{
+    white-space: nowrap;
+}
+.viewVintage td.label{
+    text-align:right;
+    font-weight: bold;
+    width:1px;
+}
+.viewVintage td.value{
+    width: 100%;
+}
+.viewVintage td.description{
+    white-space: normal;
+}
+.viewVintage td.gallery{
+    background-color:#fff;
+    width: 150px;
+    vertical-align: middle;
+    text-align:center;
+    cursor: pointer;
+}
+.viewVintage td.gallery img{
+    background-color:#fff;
+    max-width: 150px;
+    display: none;
+}
+.viewVintage td.gallery img:first-child{
+    display: inline-block;
+}
+.viewVintage tbody tr:hover{
+    background-color:#fff;
+}
+.viewVintage tbody tr:hover:nth-child(2n+1){
+    background-color:#f9f9f9;
+}
+.viewVintage tbody tr{
+    height:1px;
+}
+.viewVintage tbody tr:last-child{
+    height:auto;
+}

@@ -1,0 +1,1 @@
+<?php $t=array('Draft'=>'Draft','Preparation'=>'Preparation','Finished'=>'Finished','Summing up'=>'Summing up');

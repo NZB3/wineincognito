@@ -1,0 +1,1 @@
+<?php $t=array('Swap'=>'Сменить местами','User reviews were successfully swapped'=>'Смена рецензий местами была успешно завершена');

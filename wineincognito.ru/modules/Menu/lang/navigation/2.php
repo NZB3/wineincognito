@@ -1,0 +1,1 @@
+<?php $t=array('Back'=>'Назад','Show menu'=>'Show menu','Hide menu'=>'Hide menu');

@@ -1,0 +1,26 @@
+.register-user-form tr.buttons td{
+    text-align: center;
+}
+.register-user-form tr.buttons td input{
+    min-width: 50%;
+}
+.register-user-form tr.buttons td input:disabled{
+	cursor: default;
+	opacity: 50%;
+}
+.register-user-form tr.consent input{
+	display: none;
+}
+.register-user-form tr.consent input + span{
+    display: inline-block;
+    min-height: 24px;
+    min-width: 24px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-image: url(/modules/Main/img/checkbox.png);
+    margin: 0 4px;
+}
+.register-user-form tr.consent input:checked + span{
+    background-image: url(/modules/Main/img/checkbox-checked.png);
+}

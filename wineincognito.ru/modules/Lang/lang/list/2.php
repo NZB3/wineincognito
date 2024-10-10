@@ -1,0 +1,1 @@
+<?php $t=array('Name'=>'Наименование','Variable'=>'Переменная','Translation'=>'Перевод');

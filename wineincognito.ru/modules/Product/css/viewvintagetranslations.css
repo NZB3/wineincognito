@@ -1,0 +1,27 @@
+
+.vintage-translations thead th.desc, .vintage-translations tbody td.desc{
+    width:100%;
+}
+.vintage-translations tbody td{
+    vertical-align: middle;
+}
+.vintage-translations tbody td.approve, .vintage-translations tbody td.deny,
+.vintage-translations th.approve, .vintage-translations th.deny{
+    width:0px;
+    padding:0;
+}
+.vintage-translations tbody td.approve span,.vintage-translations tbody td.deny span{
+    width: 32px;
+    height: 32px;
+    margin: 2px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    display: block;
+}
+.vintage-translations tbody td.approve span{
+    background-image: url(/modules/Product/img/approve.png);
+}
+.vintage-translations tbody td.deny span{
+    background-image: url(/modules/Product/img/deny.png);
+}

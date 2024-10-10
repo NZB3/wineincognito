@@ -1,0 +1,1 @@
+<?php $t=array('Upload error (@2) for file @1'=>'Ошибка (@2) при загрузке файла @1','Size of @1 exceeds limit of @2 kilobytes'=>'Размер @1 превышает лимит в @2 КБ','Invalid image type for file @1. Supported types: @2'=>'Invalid image type for file @1. Supported types: @2');

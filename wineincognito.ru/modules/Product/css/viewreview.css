@@ -1,0 +1,71 @@
+.view-review .head-buttons a.edit{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+    background-image: url(/modules/Product/img/edit.png);
+    vertical-align:bottom;
+}
+.view-review tbody tr,.view-review tbody tr:nth-child(2n+1),.view-review tbody tr:hover{
+    background-color: #fff;
+}
+.view-review td.label{
+    width:1px;
+    white-space: nowrap;
+}
+.view-review td.score{
+    font-size: 120%;
+    text-align: right;
+}
+
+.view-review td.review, .view-review td.personal-comment{
+    white-space: normal;
+}
+.view-review td.review span.quote-open,.view-review td.review span.quote-close{
+    background-image: url(/modules/Product/img/quote-open.png);
+    background-repeat: no-repeat;
+    display:block;
+    height:24px;
+    opacity: 0.7;
+}
+.view-review td.review span.quote-open{
+    background-position: center left;
+    background-image: url(/modules/Product/img/quote-open.png);
+}
+.view-review td.review span.quote-close{
+    background-position: center right;
+    background-image: url(/modules/Product/img/quote-close.png);
+}
+.view-review td.author{
+    text-align: right;
+}
+.view-review td.author:before{
+    content:"- ";
+}
+.view-review td.personal-comment{
+    color: #777;
+}
+.view-review td.val ul li img,.view-review td.val span img{
+    max-height: 32px;
+    max-width: 32px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.view-review table.score-calc td{
+    border: 1px solid #e1e1e1;
+    vertical-align: top;
+    text-align: center;
+    color: #e1e1e1;
+}
+.view-review table.score-calc td.caption{
+    text-align: left;
+    color: #333;
+}
+.view-review table.score-calc td.selected{
+    font-weight: bold;
+    color: #333;
+}

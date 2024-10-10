@@ -1,0 +1,1 @@
+<?php $t=array('Amateur'=>'Любитель','Beginner Expert'=>'Эксперт-новичок','Expert'=>'Эксперт','Professional Expert'=>'Эксперт-профессионал','Personal'=>'Личная');

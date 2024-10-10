@@ -1,0 +1,1 @@
+<?php $t=array('Select'=>'Выбрать','Merge into'=>'Объединить в','All problems were resolved'=>'Все конфликты были разрешены');

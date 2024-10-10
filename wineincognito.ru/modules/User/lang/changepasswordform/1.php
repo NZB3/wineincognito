@@ -1,0 +1,1 @@
+<?php $t=array('Old password'=>'Old password','New password'=>'New password','Repeat password'=>'Repeat password','Change Password'=>'Change Password');

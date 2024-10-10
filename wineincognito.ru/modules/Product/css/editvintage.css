@@ -1,0 +1,21 @@
+.edit-vintage-form .step1,.edit-vintage-form .step2,.edit-vintage-form tr.multilang.step1,.edit-vintage-form tr.multilang.step2{
+    display: none;
+}
+.edit-vintage-form.step1 .step1,.edit-vintage-form.step2 .step2,
+.edit-vintage-form.step1 table.show_lang_1 tr.lang_1.step1,.edit-vintage-form.step2 table.show_lang_1 tr.lang_1.step2,
+.edit-vintage-form.step1 table.show_lang_2 tr.lang_2.step1,.edit-vintage-form.step2 table.show_lang_2 tr.lang_2.step2{
+    display: table-row;
+}
+.edit-vintage-form input:read-only{
+    border: 0;
+    color: inherit;
+}
+.edit-vintage-form tr.grape-variety table.blend td:first-child{
+    width:100%;
+}
+.edit-vintage-form tr.grape-variety table.blend td:last-child{
+    padding: 2px;
+}
+.edit-vintage-form tr.grape-variety table.blend td:last-child input{
+    width: 40px;
+}

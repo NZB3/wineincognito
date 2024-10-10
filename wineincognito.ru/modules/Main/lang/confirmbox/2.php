@@ -1,0 +1,1 @@
+<?php $t=array('OK'=>'OK','Cancel'=>'Cancel');

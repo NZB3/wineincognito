@@ -1,0 +1,1 @@
+<?php $t=array('Name'=>'Наименование','ITN'=>'ИНН','Contact person'=>'Контактное лицо','Contact person name'=>'Имя','Contact person e-mail'=>'E-mail','Contact person phone'=>'Телефон');

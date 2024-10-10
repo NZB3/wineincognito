@@ -1,0 +1,1 @@
+<?php $t=array('Pending'=>'Pending','Accept'=>'Accept','Decline'=>'Decline','Uncertain'=>'Uncertain','Interested, but can\'t attend'=>'Interested, but can\'t attend');

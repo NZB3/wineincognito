@@ -1,0 +1,1 @@
+<?php $t=array('Sorry, no matches found'=>'Sorry, no matches found','Load more'=>'Load more','Seller'=>'Seller','Product'=>'Product','Volume'=>'Volume','Price'=>'Price','Price per l.'=>'Price per l.','Shop'=>'Shop','WineIncognito Score'=>'WineIncognito Score');

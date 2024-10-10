@@ -1,0 +1,74 @@
+.viewTasting .head-buttons .rightbar a.view-statistics, .viewTasting .head-buttons a.edit, .viewTasting .head-buttons span.change-status, .viewTasting .head-buttons .rightbar a.swap-reviews, .viewTasting .head-buttons span.assess{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.viewTasting .head-buttons .rightbar{
+    display:block;
+    float:right;
+    white-space: nowrap;
+}
+.viewTasting .head-buttons .rightbar a, .viewTasting .head-buttons .rightbar span{
+    vertical-align: bottom;
+}
+
+.viewTasting .head-buttons .rightbar a.view-statistics{
+    background-image: url(/modules/Tasting/img/tasting-statistics-view.png);
+}
+.viewTasting .head-buttons .rightbar a.edit{
+    background-image: url(/modules/Tasting/img/edit.png);
+}
+.viewTasting .head-buttons .rightbar span.change-status.delete{
+    background-image: url(/modules/Tasting/img/status-delete.png);
+}
+.viewTasting .head-buttons .rightbar span.change-status.draft{
+    background-image: url(/modules/Tasting/img/status-draft.png);
+}
+.viewTasting .head-buttons .rightbar span.change-status.preparation{
+    background-image: url(/modules/Tasting/img/status-preparation.png);
+}
+.viewTasting .head-buttons .rightbar span.change-status.start{
+    background-image: url(/modules/Tasting/img/status-start.png);
+}
+.viewTasting .head-buttons .rightbar span.change-status.finish{
+    background-image: url(/modules/Tasting/img/status-finish.png);
+}
+.viewTasting .head-buttons .rightbar a.swap-reviews{
+    background-image: url(/modules/Tasting/img/swap-reviews.png);
+}
+.viewTasting .head-buttons .rightbar span.assess.approve{
+    background-image: url(/modules/Tasting/img/approve.png);
+}
+.viewTasting .head-buttons .rightbar span.assess.deny{
+    background-image: url(/modules/Tasting/img/deny.png);
+}
+.viewTasting td{
+    white-space: nowrap;
+}
+.viewTasting td.label{
+    text-align:right;
+    font-weight: bold;
+    width:1px;
+}
+.viewTasting td.value{
+    width: 100%;
+}
+.viewTasting td.value.description{
+    white-space: normal;
+}
+.viewTasting td.pricegrid{
+    padding:0;
+}
+.viewTasting td.pricegrid table tr{
+    border:0;
+}
+.viewTasting td.pricegrid table td label{
+    font-weight: normal;
+}
+.viewTasting td.pricegrid table td label:after{
+    content:":";
+}

@@ -1,0 +1,29 @@
+.viewCompany span.approve,.viewCompany span.delete,.viewCompany a.edit,.viewCompany span.join{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.viewCompany span.approve{
+    background-image: url(/modules/User/img/approve.png);
+}
+.viewCompany span.delete{
+    background-image: url(/modules/User/img/delete.png);
+}
+.viewCompany a.edit{
+    background-image: url(/modules/User/img/edit.png);
+}
+.viewCompany span.join{
+    background-image: url(/modules/User/img/join.png);
+}
+table.viewCompany td.label{
+    width:1px;
+    white-space: nowrap;
+    text-align:right;
+}
+table.viewCompany td.label:after{
+    content:":";
+}

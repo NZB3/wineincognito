@@ -1,0 +1,14 @@
+#edit-tasting-form .participation-rating{
+    display:none;
+}
+#edit-tasting-form .price-grid{
+    display:none;
+}
+#edit-tasting-form .edit-tasting-price_grid_rated_expert_rating{
+    display: inline-block;
+    width: 44px;
+    margin-left: 5px;
+}
+#edit-tasting-form .price{
+    min-width: 75px;
+}

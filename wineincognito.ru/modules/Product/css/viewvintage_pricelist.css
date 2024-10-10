@@ -1,0 +1,6 @@
+.view-vintage-pricelist td,.view-vintage-pricelist th,.view-vintage-pricelist tr.header th:first-child{
+    text-align: center;
+}
+.view-vintage-pricelist td:first-child,.view-vintage-pricelist th:first-child{
+    text-align: left;
+}

@@ -1,0 +1,1 @@
+<?php $t=array('Username'=>'E-mail','Password'=>'Password','Log in'=>'Log in','Register'=>'Register','Forgotten password?'=>'Forgotten password?');

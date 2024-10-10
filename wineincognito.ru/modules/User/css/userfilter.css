@@ -1,0 +1,128 @@
+.filter-block.user-filter .datalist thead th.separator,.filter-block.user-filter .datalist tbody td.separator{
+    width:100%;
+}
+.filter-block.user-filter .datalist tbody td{
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.filter-block.user-filter .datalist tbody td a{
+    display:block;
+}
+.filter-block.user-filter .datalist tbody td.expert a{
+    display:inline-block;
+}
+.filter-block.user-filter .datalist tbody td.activity,.filter-block.user-filter .datalist tbody td.approve-expert,.filter-block.user-filter .datalist tbody td.deny-expert,.filter-block.user-filter .datalist tbody td.dismiss, .filter-block.user-filter .datalist tbody td.edit,.filter-block.user-filter .datalist tbody td.change_password,.filter-block.user-filter .datalist tbody td.info,.filter-block.user-filter .datalist tbody td.add-product-right,.filter-block.user-filter .datalist tbody td.add-tasting-right,.filter-block.user-filter .datalist tbody td.role,.filter-block.user-filter .datalist tbody td.approve-join-request,.filter-block.user-filter .datalist tbody td.reject-join-request,.filter-block.user-filter .datalist tbody td.custom-add,
+.filter-block.user-filter .datalist th.activity,.filter-block.user-filter .datalist th.approve-expert,.filter-block.user-filter .datalist th.deny-expert,.filter-block.user-filter .datalist th.dismiss, .filter-block.user-filter .datalist th.edit,.filter-block.user-filter .datalist th.change_password,.filter-block.user-filter .datalist th.info,.filter-block.user-filter .datalist th.add-product-right,.filter-block.user-filter .datalist th.add-tasting-right,.filter-block.user-filter .datalist th.role,.filter-block.user-filter .datalist th.approve-join-request,.filter-block.user-filter .datalist th.reject-join-request,.filter-block.user-filter .datalist th.custom-add{
+    width:0;
+    padding:0;
+}
+.filter-block.user-filter .datalist tbody td.activity span,.filter-block.user-filter .datalist tbody td.approve-expert span,.filter-block.user-filter .datalist tbody td.deny-expert span,.filter-block.user-filter .datalist tbody td.dismiss span,.filter-block.user-filter .datalist tbody td.edit a,.filter-block.user-filter .datalist tbody td.change_password a,.filter-block.user-filter .datalist tbody td.info a,.filter-block.user-filter .datalist tbody td.add-product-right span,.filter-block.user-filter .datalist tbody td.add-tasting-right span,.filter-block.user-filter .datalist tbody td.approve-join-request span,.filter-block.user-filter .datalist tbody td.reject-join-request span,.filter-block.user-filter .datalist tbody td.custom-add span{
+    width: 32px;
+    height: 32px;
+    margin: 2px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    cursor: pointer;
+}
+.filter-block.user-filter .datalist tbody td.activity span{
+    cursor: default;
+    background-image: url(/modules/User/img/activity-offline.png);
+}
+.filter-block.user-filter .datalist tbody tr.user-online td.activity span{
+    background-image: url(/modules/User/img/activity-online.png);
+}
+.filter-block.user-filter .datalist tbody td.approve-expert span{
+    background-image: url(/modules/User/img/approve.png);
+}
+.filter-block.user-filter .datalist tbody td.deny-expert span{
+    background-image: url(/modules/User/img/deny.png);
+}
+.filter-block.user-filter .datalist tbody td.approve-join-request span{
+    background-image: url(/modules/User/img/approve.png);
+}
+.filter-block.user-filter .datalist tbody td.reject-join-request span{
+    background-image: url(/modules/User/img/deny.png);
+}
+.filter-block.user-filter .datalist tbody td.dismiss span{
+    background-image: url(/modules/User/img/dismiss.png);
+}
+.filter-block.user-filter .datalist tbody td.edit a{
+    background-image: url(/modules/User/img/edit.png);
+}
+.filter-block.user-filter .datalist tbody td.change_password a{
+    background-image: url(/modules/User/img/change_password.png);
+}
+.filter-block.user-filter .datalist tbody td.info a{
+    background-image: url(/modules/User/img/info.png);
+}
+.filter-block.user-filter .datalist tbody td.add-product-right span{
+    background-image: url(/modules/User/img/product-add-disabled.png);
+}
+.filter-block.user-filter .datalist tbody tr.can-add-product td.add-product-right span{
+    background-image: url(/modules/User/img/product-add.png);
+}
+.filter-block.user-filter .datalist tbody td.add-tasting-right span{
+    background-image: url(/modules/User/img/tasting-add-disabled.png);
+}
+.filter-block.user-filter .datalist tbody tr.can-add-tasting td.add-tasting-right span{
+    background-image: url(/modules/User/img/tasting-add.png);
+}
+.filter-block.user-filter .datalist tbody td.custom-add span{
+    background-image: url(/modules/User/img/add.png);
+}
+.filter-block.user-filter .datalist tbody td.role span{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+}
+.filter-block.user-filter .datalist tbody td.role span.supervisor{
+    background-image: url(/modules/User/img/supervisor.png);
+}
+.filter-block.user-filter .datalist tbody td.favourite span{
+    display:block;
+    background-position:center center;
+    background-repeat: no-repeat;
+    width:32px;
+    height:32px;
+    background-image: url(/modules/Product/img/favourite-off.png);
+    opacity: 0.3;
+    cursor:pointer;
+}
+.filter-block.user-filter .datalist tbody td.favourite span:hover{
+    opacity: 1;
+}
+.filter-block.user-filter .datalist tbody tr.favourite td.favourite span{
+    background-image: url(/modules/Product/img/favourite-on.png);
+}
+.filter-block.user-filter .datalist tbody tr td.name a{
+    cursor: pointer;
+}
+.filter-block.user-filter.single-company-user-list .datalist tbody td.company,.filter-block.user-filter.single-company-user-list .datalist th.company{
+    display: none;
+}
+.filter-block.user-filter .datalist th.score span.header{
+    display:inline-block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align:middle;
+}
+.filter-block.user-filter .datalist th.score.score1 span.header{
+    background-image: url(/modules/Product/img/score1-header.png);
+}
+.filter-block.user-filter .datalist th.score.score2 span.header{
+    background-image: url(/modules/Product/img/score2-header.png);
+}
+.filter-block.user-filter .datalist th.score.score3 span.header{
+    background-image: url(/modules/Product/img/score3-header.png);
+}
+.filter-block.user-filter .datalist th.score.automatic-evaluation span.header{
+    background-image: url(/modules/Tasting/img/evaluation-auto-result.png);
+}
+.filter-block.user-filter .datalist th.score.manual-evaluation span.header{
+    background-image: url(/modules/Tasting/img/evaluation-manual-result.png);
+}

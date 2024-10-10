@@ -1,0 +1,1 @@
+<?php $t=array('404: Page not found'=>'Страница не найдена');

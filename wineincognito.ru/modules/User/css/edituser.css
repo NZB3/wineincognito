@@ -1,0 +1,15 @@
+form#edit-user-change-password-form input.highlighted{
+    border-color:#d66;
+}
+.edit-user td.value{
+    vertical-align: middle;
+}
+.edit-user tr.required td.label label:after{
+    content:"*:";
+}
+.edit-user tr td.label label:after{
+    content:":";
+}
+.edit-user td.guide{
+    font-style: italic;
+}

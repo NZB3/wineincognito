@@ -1,0 +1,1 @@
+<?php $t=array('Change language to @1'=>'Сменить язык на @1');

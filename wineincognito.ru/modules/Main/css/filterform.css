@@ -1,0 +1,111 @@
+.filter-block .filter-form .filter thead .dropdown label{
+    display:block;
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+    background-image: url(/modules/Main/img/filter-up.png);
+}
+.filter-block .filter-form .filter thead .dropdown label input{
+    display: none;
+}
+.filter-block .filter-form .filter.minimize thead .dropdown label{
+    background-image: url(/modules/Main/img/filter-down.png);
+}
+.filter-block .filter-form .filter.minimize tbody{
+    display: none;
+}
+.filter-block .filter-form .filter td.submit{
+    text-align:right;
+}
+.filter-block .filter-form .filter td.submit label{
+    display: inline-block;
+    margin-right: 5px;
+}
+.filter-block .filter-form .filter td.submit label:after{
+    content: ":";
+}
+.filter-block .filter-form .filter td.submit select.page-limit{
+    display:inline-block;
+    width:auto;
+    margin-right: 15px;
+}
+.filter-block > .datalist{
+    margin-top: 30px !important;
+}
+.filter-block .datalist .noentries, .filter-block .datalist .loading, .filter-block .datalist{
+    display: none;
+}
+.filter-block .datalist ul.pagination{
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+}
+.filter-block .datalist ul.pagination li.page{
+    padding: 4px 8px;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #0074a2;
+    background-color: #e0e0e0;
+}
+.filter-block .datalist ul.pagination li.page:hover,.filter-block .datalist ul.pagination li.page.current{
+    background-color: #2ea2cc;
+    color: #fff;
+}
+.filter-block .datalist ul.pagination li.page.current{
+    cursor: default;
+}
+.filter-block .datalist ul.pagination li.separator{
+    padding: 4px 8px;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    cursor: default;
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #000;
+    background-color: inherit;
+}
+.filter-block .datalist th.filter-empty-col,.filter-block .datalist td.filter-empty-col{
+    width:0;
+    padding:0;
+}
+.filter-block .datalist th.filter-empty-col:not(.filter-block-can-order-by){
+    text-indent:-5000px;
+    overflow:hidden;
+
+}
+/*.filter-block .datalist th.filter-empty-col span,.filter-block .datalist td.filter-empty-col span{
+    display: none !important;
+}*/
+.filter-block .datalist th.filter-block-can-order-by{
+    cursor:pointer;
+}
+.filter-block .datalist th.filter-block-can-order-by{
+    white-space: nowrap;
+}
+.filter-block .datalist th.filter-block-can-order-by span.filter-block-order-direction{
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.filter-block .datalist th.filter-block-can-order-by.filter-block-order-asc span.filter-block-order-direction{
+    background-image: url(/modules/Main/img/filter-order-direction-asc.png);
+}
+.filter-block .datalist th.filter-block-can-order-by.filter-block-order-desc span.filter-block-order-direction{
+    background-image: url(/modules/Main/img/filter-order-direction-desc.png);
+}

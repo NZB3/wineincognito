@@ -1,0 +1,55 @@
+.userlist thead th.separator{
+    width:100%;
+}
+.userlist tbody td{
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.userlist tbody td a{
+    display:block;
+}
+.userlist tbody td.approve,.userlist tbody td.deny,.userlist tbody td.dismiss, .userlist tbody td.edit,.userlist tbody td.change_password,
+.userlist th.approve,.userlist th.deny,.userlist th.dismiss, .userlist th.edit,.userlist th.change_password{
+    width:0;
+    padding:0;
+}
+.userlist tbody td.approve span,.userlist tbody td.deny span,.userlist tbody td.dismiss span,.userlist tbody td.edit a,.userlist tbody td.change_password a{
+    width: 32px;
+    height: 32px;
+    margin: 2px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    cursor: pointer;
+}
+.userlist tbody td.approve span{
+    background-image: url(/modules/User/img/approve.png);
+}
+.userlist tbody td.deny span{
+    background-image: url(/modules/User/img/deny.png);
+}
+.userlist tbody td.dismiss span{
+    background-image: url(/modules/User/img/dismiss.png);
+}
+.userlist tbody td.edit a{
+    background-image: url(/modules/User/img/edit.png);
+}
+.userlist tbody td.change_password a{
+    background-image: url(/modules/User/img/change_password.png);
+}
+.userlist tbody td.role span{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+}
+.userlist tbody td.role.supervisor span{
+    background-image: url(/modules/User/img/supervisor.png);
+}
+.userlist.hiderole th.role,.userlist.hiderole tbody td.role{
+    display:none;
+}
+.userlist.hidecompany th.company,.userlist.hidecompany tbody td.company{
+    display:none;
+}

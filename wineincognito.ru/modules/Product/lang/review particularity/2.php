@@ -1,0 +1,1 @@
+<?php $t=array('Review particularity options'=>'Настройки детальности рецензий','Skip'=>'Пропустить','Request'=>'Запросить','Review particularity have been successfully modified'=>'Детальность рецензий была успешно установлена','Score submission - Score calc'=>'Калькулятор','Score submission - Manual'=>'Ручная');

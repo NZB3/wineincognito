@@ -1,0 +1,1 @@
+<?php $t=array('Company has been successfully deleted'=>'Company has been successfully deleted','Are you sure you want to delete @1?'=>'Are you sure you want to delete @1?');

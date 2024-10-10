@@ -1,0 +1,50 @@
+.productlist a.add{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+    float:right;
+}
+.productlist a.add{
+    background-image: url(/modules/Product/img/add.png);
+}
+.productlist thead th.separator{
+    width:100%;
+}
+.productlist tbody td{
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.productlist tbody td a{
+    display:block;
+}
+.productlist tbody td.edit, .productlist tbody td.image,
+.productlist th.edit, .productlist th.image{
+    width:0;
+    padding:0;
+}
+.productlist tbody td.image{
+    vertical-align: middle;
+    text-align:center;
+}
+.productlist tbody td.image img{
+    cursor:pointer;
+    display: inline-block;
+    max-width: 40px;
+    max-height: 60px;
+}
+.productlist tbody td.edit a{
+    width: 32px;
+    height: 32px;
+    margin: 2px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    cursor: pointer;
+}
+.productlist tbody td.edit a{
+    background-image: url(/modules/Product/img/edit.png);
+}

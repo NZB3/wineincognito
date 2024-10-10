@@ -1,0 +1,1 @@
+<?php $t=array('En primeur'=>'En primeur','Lot'=>'Lot','Your personal reviews'=>'Your personal reviews');

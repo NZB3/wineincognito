@@ -1,0 +1,13 @@
+#edit-tasting-contest-form td.edit-tasting-contest-form-image-block img.empty, #edit-tasting-contest-form td.edit-tasting-contest-form-image-block input[type=file]{
+    display:none;
+}
+#edit-tasting-contest-form td.edit-tasting-contest-form-image-block img{
+    max-width: 64px;
+    max-height: 64px;
+    display: inline-block;
+    vertical-align:middle;
+    margin-right: 10px;
+}
+#edit-tasting-contest-form td.edit-tasting-contest-form-image-block{
+    vertical-align:middle;
+}

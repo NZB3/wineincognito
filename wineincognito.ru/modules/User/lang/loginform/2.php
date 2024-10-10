@@ -1,0 +1,1 @@
+<?php $t=array('Username'=>'E-mail','Password'=>'Пароль','Log in'=>'Вход','Register'=>'Регистрация','Forgotten password?'=>'Забыли пароль?');

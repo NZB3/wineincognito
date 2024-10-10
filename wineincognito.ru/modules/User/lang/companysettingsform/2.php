@@ -1,0 +1,1 @@
+<?php $t=array('Auto Invite'=>'Авто приглашение','URL'=>'URL','Deactivate'=>'Деактивировать','Activate'=>'Активировать');

@@ -1,0 +1,1 @@
+<?php $t=array('I\'m 18 or older'=>'I\'m 18 or older','I am under 18'=>'I am under 18');

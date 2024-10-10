@@ -1,0 +1,1 @@
+<?php $t=array('Direct Auth'=>'Direct Auth','Direct Auth: Status'=>'Status','Direct Auth: Status: Disabled'=>'Disabled','Direct Auth: URL'=>'URL','Direct Auth: Status: Enable'=>'Enable','Direct Auth: Status: Enabled'=>'Enabled','Direct Auth: Status: Disable'=>'Disable');

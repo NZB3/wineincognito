@@ -1,0 +1,73 @@
+.view-tasting-contest .head-buttons .rightbar a.view-statistics, .view-tasting-contest .head-buttons a.edit, .view-tasting-contest .head-buttons span.change-status, .view-tasting-contest .head-buttons span.assess{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.view-tasting-contest .head-buttons .rightbar{
+    display:block;
+    float:right;
+    white-space: nowrap;
+}
+.view-tasting-contest .head-buttons .rightbar a, .view-tasting-contest .head-buttons .rightbar span{
+    vertical-align: bottom;
+}
+
+.view-tasting-contest .head-buttons .rightbar a.view-statistics{
+    background-image: url(/modules/Tasting/img/tasting-statistics-view.png);
+}
+.view-tasting-contest .head-buttons .rightbar a.edit{
+    background-image: url(/modules/Tasting/img/edit.png);
+}
+.view-tasting-contest .head-buttons .rightbar span.change-status.delete{
+    background-image: url(/modules/Tasting/img/status-delete.png);
+}
+.view-tasting-contest .head-buttons .rightbar span.change-status.draft{
+    background-image: url(/modules/Tasting/img/status-draft.png);
+}
+.view-tasting-contest .head-buttons .rightbar span.change-status.preparation{
+    background-image: url(/modules/Tasting/img/status-preparation.png);
+}
+.view-tasting-contest .head-buttons .rightbar span.change-status.summing-up{
+    background-image: url(/modules/Tasting/img/status-start.png);
+}
+.view-tasting-contest .head-buttons .rightbar span.change-status.finish{
+    background-image: url(/modules/Tasting/img/status-finish.png);
+}
+.view-tasting-contest .head-buttons .rightbar span.assess.approve{
+    background-image: url(/modules/Tasting/img/approve.png);
+}
+.view-tasting-contest .head-buttons .rightbar span.assess.deny{
+    background-image: url(/modules/Tasting/img/deny.png);
+}
+.view-tasting-contest td{
+    white-space: nowrap;
+}
+.view-tasting-contest td.label{
+    text-align:right;
+    font-weight: bold;
+    width:1px;
+}
+.view-tasting-contest td.value{
+    width: 100%;
+}
+.view-tasting-contest td.value.description{
+    white-space: normal;
+}
+.view-tasting-contest td.image{
+    width:0;
+    text-align: center;
+    vertical-align: middle;
+}
+.view-tasting-contest td.image img{
+    display: inline-block;
+    max-width: 128px;
+    max-height: 128px;
+}
+.view-tasting-contest tr.lastrow td{
+    padding:0;
+    height:0;
+}

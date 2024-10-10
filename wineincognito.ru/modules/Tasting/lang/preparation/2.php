@@ -1,0 +1,1 @@
+<?php $t=array('None'=>'Нет','Bottle opening'=>'Открытие бутылки','Decantation'=>'Декантация','Preparation'=>'Подготовка','Started (minutes ago)'=>'Начата (минут назад)');

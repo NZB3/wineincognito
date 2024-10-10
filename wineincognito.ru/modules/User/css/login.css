@@ -1,0 +1,21 @@
+.login-form td{
+    white-space: nowrap;
+}
+.login-form tr.buttons div{
+    width:50%;
+    display:inline-block;
+}
+.login-form tr.buttons div.login{
+    text-align: left;
+}
+.login-form tr.buttons div.register{
+    text-align: right;
+}
+.login-form tr.buttons input,.login-form tr.buttons a{
+    display: inline-block;
+    width:70%;
+}
+.login-form tr td.password-recovery{
+    padding:0;
+    text-align:right;
+}

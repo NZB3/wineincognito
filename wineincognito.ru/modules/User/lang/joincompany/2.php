@@ -1,0 +1,1 @@
+<?php $t=array('Request sent'=>'Запрос отправлен','You\'ve been invited to company @1'=>'Вы были приглашены в компанию @1','Join'=>'Вступить');

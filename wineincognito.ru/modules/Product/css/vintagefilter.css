@@ -1,0 +1,148 @@
+.filter-block.vintage-filter.only-blank .filter-form .filter tr.non-blank{
+    display:none;
+}
+.filter-block.vintage-filter .datalist thead th.separator{
+    width:100%;
+}
+.filter-block.vintage-filter .datalist tbody td{
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.filter-block.vintage-filter .datalist tbody td.add, .filter-block.vintage-filter .datalist tbody td.edit, .filter-block.vintage-filter .datalist tbody td.image, .filter-block.vintage-filter .datalist tbody td.favourite, .filter-block.vintage-filter .datalist tbody td.custom-add, .filter-block.vintage-filter .datalist tbody td.info, .filter-block.vintage-filter .datalist tbody td.add-review, .filter-block.vintage-filter .datalist tbody td.certificate-view, .filter-block.vintage-filter .datalist tbody td.color, .filter-block.vintage-filter .datalist tbody td.nomination-winner,
+.filter-block.vintage-filter .datalist th.add, .filter-block.vintage-filter .datalist th.edit, .filter-block.vintage-filter .datalist th.image, .filter-block.vintage-filter .datalist th.favourite,.filter-block.vintage-filter .datalist th.custom-add,.filter-block.vintage-filter .datalist th.info,.filter-block.vintage-filter .datalist th.add-review,.filter-block.vintage-filter .datalist th.certificate-view,.filter-block.vintage-filter .datalist th.color,.filter-block.vintage-filter .datalist th.nomination-winner{
+    width:0px;
+    padding:0;
+}
+.filter-block.vintage-filter .datalist tbody td.company-favourite.can-favourite span, .filter-block.vintage-filter .datalist tbody tr.company-favourite td.company-favourite span{
+    display:block;
+    background-position:center center;
+    background-repeat: no-repeat;
+    width:32px;
+    height:32px;
+    background-image: url(/modules/Product/img/company-favourite-off.png);
+    opacity: 0.3;
+}
+.filter-block.vintage-filter .datalist tbody td.company-favourite.can-favourite span{
+    cursor:pointer;
+}
+.filter-block.vintage-filter .datalist tbody td.company-favourite.can-favourite span:hover{
+    opacity: 1;
+}
+.filter-block.vintage-filter .datalist tbody tr.company-favourite td.company-favourite span{
+    background-image: url(/modules/Product/img/company-favourite-on.png);
+}
+
+
+
+
+.filter-block.vintage-filter .datalist tbody td.favourite.can-favourite span, .filter-block.vintage-filter .datalist tbody tr.favourite td.favourite span{
+    display:block;
+    background-position:center center;
+    background-repeat: no-repeat;
+    width:32px;
+    height:32px;
+    background-image: url(/modules/Product/img/favourite-off.png);
+    opacity: 0.3;
+}
+.filter-block.vintage-filter .datalist tbody td.favourite.can-favourite span{
+    cursor:pointer;
+}
+.filter-block.vintage-filter .datalist tbody td.favourite.can-favourite span:hover{
+    opacity: 1;
+}
+.filter-block.vintage-filter .datalist tbody tr.favourite td.favourite span{
+    background-image: url(/modules/Product/img/favourite-on.png);
+}
+.filter-block.vintage-filter .datalist tbody td.image{
+    vertical-align: middle;
+    text-align:center;
+}
+.filter-block.vintage-filter .datalist tbody td.image img{
+    cursor:pointer;
+    display: inline-block;
+    max-width: 40px;
+    max-height: 60px;
+}
+.filter-block.vintage-filter .datalist tbody td.name span.awaiting-approval{
+    display: inline-block;
+    margin-left: 10px;
+    color: #888;
+}
+.filter-block.vintage-filter .datalist tbody td.name a{
+    display: block;
+    cursor: pointer;
+}
+.filter-block.vintage-filter .datalist tbody td.name span.awaiting-approval:before{
+    content:"(";
+}
+.filter-block.vintage-filter .datalist tbody td.name span.awaiting-approval:after{
+    content:")";
+}
+.filter-block.vintage-filter .datalist tbody td.custom-add span,.filter-block.vintage-filter .datalist tbody td.nomination-winner span,.filter-block.vintage-filter .datalist tbody td.info a,.filter-block.vintage-filter .datalist tbody td.add-review a,.filter-block.vintage-filter .datalist tbody td.certificate-view a,.filter-block.vintage-filter .datalist tbody td.score-details a,
+.filter-block.vintage-filter .datalist tbody td.color.color-white span,.filter-block.vintage-filter .datalist tbody td.color.color-pink span,.filter-block.vintage-filter .datalist tbody td.color.color-red span{
+    width: 32px;
+    height: 32px;
+    margin: 2px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display:block;
+}
+.filter-block.vintage-filter .datalist tbody td.custom-add span,.filter-block.vintage-filter .datalist tbody td.info a,.filter-block.vintage-filter .datalist tbody td.add-review a,.filter-block.vintage-filter .datalist tbody td.certificate-view a,.filter-block.vintage-filter .datalist tbody td.score-details a{
+    cursor: pointer;
+}
+.filter-block.vintage-filter .datalist tbody td.info a,.filter-block.vintage-filter .datalist tbody td.score-details a{
+    display: block;
+}
+.filter-block.vintage-filter .datalist tbody td.custom-add span{
+    background-image: url(/modules/Product/img/add.png);
+}
+.filter-block.vintage-filter .datalist tbody td.info a{
+    background-image: url(/modules/Product/img/info.png);
+}
+.filter-block.vintage-filter .datalist tbody td.add-review a{
+    background-image: url(/modules/Product/img/add-review.png);
+}
+.filter-block.vintage-filter .datalist tbody td.certificate-view a{
+    background-image: url(/modules/Tasting/img/vintage-certificate-view.png);
+}
+.filter-block.vintage-filter .datalist tbody td.score-details a{
+    background-image: url(/modules/Product/img/score-details.png);
+}
+.filter-block.vintage-filter .datalist tbody td.nomination-winner span{
+    background-image: url(/modules/Product/img/vintage-nomination-winner.png);
+}
+.filter-block.vintage-filter .datalist tbody td.color.color-white span{
+    background-image: url(/modules/Product/img/wine-color-white.png);
+}
+.filter-block.vintage-filter .datalist tbody td.color.color-pink span{
+    background-image: url(/modules/Product/img/wine-color-pink.png);
+}
+.filter-block.vintage-filter .datalist tbody td.color.color-red span{
+    background-image: url(/modules/Product/img/wine-color-red.png);
+}
+.filter-block.vintage-filter .datalist th.score span.header{
+    display:inline-block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align:middle;
+}
+.filter-block.vintage-filter .datalist th.score.score-personal span.header{
+    background-image: url(/modules/Product/img/personal-score-header.png);
+}
+.filter-block.vintage-filter .datalist th.score.score1 span.header{
+    background-image: url(/modules/Product/img/score1-header.png);
+}
+.filter-block.vintage-filter .datalist th.score.score2 span.header{
+    background-image: url(/modules/Product/img/score2-header.png);
+}
+.filter-block.vintage-filter .datalist th.score.score3 span.header{
+    background-image: url(/modules/Product/img/score3-header.png);
+}
+.filter-block.vintage-filter .datalist th.score.automatic-evaluation span.header{
+    background-image: url(/modules/Tasting/img/evaluation-auto-result.png);
+}
+.filter-block.vintage-filter .datalist th.score.manual-evaluation span.header{
+    background-image: url(/modules/Tasting/img/evaluation-manual-result.png);
+}

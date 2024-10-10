@@ -1,0 +1,9 @@
+.viewTasting-user-attendance-response td.label{
+    text-align:right;
+    font-weight: bold;
+    width:1px;
+}
+.viewTasting-user-attendance-response td{
+    white-space: nowrap;
+    background-color:#fff;
+}

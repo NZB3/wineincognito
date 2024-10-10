@@ -1,0 +1,1 @@
+<?php $t=array('Company has been successfully approved'=>'Компания была успешно одобрена');

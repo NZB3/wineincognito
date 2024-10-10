@@ -1,0 +1,1 @@
+<?php $t=array('Sorry, no matches found'=>'Подходящих предложений не найдено','Load more'=>'Загрузить еще','Seller'=>'Продавец','Product'=>'Продукт','Volume'=>'Объем','Price'=>'Цена','Price per l.'=>'Цена за л.','Shop'=>'Перейти','WineIncognito Score'=>'Балл WineIncognito');

@@ -1,0 +1,1 @@
+<?php $t=array('Direct Auth'=>'Авторизация по ссылке','Direct Auth: Status'=>'Статус','Direct Auth: Status: Disabled'=>'Выключена','Direct Auth: URL'=>'Ссылка','Direct Auth: Status: Enable'=>'Включить','Direct Auth: Status: Enabled'=>'Включена','Direct Auth: Status: Disable'=>'Выключить');

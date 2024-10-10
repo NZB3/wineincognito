@@ -1,0 +1,1 @@
+<?php $t=array('Request sent'=>'Запрос отправлен','Are you sure you want to join @1?'=>'Вы уверены, что хотите присоединиться к компании @1?');

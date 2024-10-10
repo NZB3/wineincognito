@@ -1,0 +1,8 @@
+table.user-settings-direct-auth.fieldlist td.label label{
+    cursor: default;
+}
+table.user-settings-direct-auth tr.direct-auth-url,
+table.user-settings-direct-auth.status-disabled tr.direct-auth-status span.status-enabled,table.user-settings-direct-auth.status-enabled tr.direct-auth-status span.status-disabled,
+table.user-settings-direct-auth.status-enabled td.submit input.action-enable,table.user-settings-direct-auth.status-disabled td.submit input.action-disable{
+    display: none;
+}

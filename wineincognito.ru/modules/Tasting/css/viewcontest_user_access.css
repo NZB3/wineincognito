@@ -1,0 +1,50 @@
+.view-contest-user-list td.remove, .view-contest-user-list td.owner,
+.view-contest-user-list th.remove, .view-contest-user-list th.owner{
+    width:1px;
+    padding:0;
+}
+.view-contest-user-list .head-buttons span.refresh,.view-contest-user-list .head-buttons span.add,.view-contest-user-list td.remove span{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.view-contest-user-list th{
+    vertical-align: middle;
+}
+.view-contest-user-list th.tasting-count{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(/modules/Tasting/img/tasting.png);
+}
+.view-contest-user-list td.owner span{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(/modules/Tasting/img/contest-owned.png);
+}
+.view-contest-user-list .head-buttons span.refresh{
+    background-image: url(/modules/Tasting/img/refresh.png);
+}
+.view-contest-user-list .head-buttons span.add{
+    background-image: url(/modules/Tasting/img/add.png);
+}
+.view-contest-user-list td.remove span{
+    background-image: url(/modules/Tasting/img/delete.png);
+}
+.view-contest-user-list td.tasting-count{
+    text-align: center;
+}
+.view-contest-user-list td{
+    white-space:nowrap;
+}
+.view-contest-user-list tbody tr td.empty-col,.view-contest-user-list tr th.empty-col{
+    display: none;
+}

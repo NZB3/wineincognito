@@ -1,0 +1,27 @@
+ 
+.expert-requests td.approve,.expert-requests td.decline,
+.expert-requests th.approve,.expert-requests th.decline{
+    width:1px;
+    padding:0;
+}
+.expert-requests td.approve,.expert-requests td.decline{
+    vertical-align: middle;
+}
+.expert-requests tr.active td.approve span,.expert-requests tr.history.approved td.approve span,
+.expert-requests tr.active td.decline span,.expert-requests tr.history.declined td.decline span{
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    margin-left: 5px;
+}
+.expert-requests tr.active td.approve span,.expert-requests tr.active td.decline span{
+    cursor: pointer;
+}
+.expert-requests tr.active td.approve span,.expert-requests tr.history.approved td.approve span{
+    background-image: url(/modules/User/img/approve.png);
+}
+.expert-requests tr.active td.decline span,.expert-requests tr.history.declined td.decline span{
+    background-image: url(/modules/User/img/deny.png);
+}
